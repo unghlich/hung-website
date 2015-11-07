@@ -73,7 +73,7 @@ class DATABASE_CONFIG {
     public function __construct()
     {
         $this->default = array(
-            'datasource' => 'Database/Mysql',
+            'datasource' => 'Mysql',
             'persistent' => false,
             'host' => 'localhost',
             'login' => $_SERVER['DB_USER'],
