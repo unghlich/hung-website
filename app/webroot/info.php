@@ -1,1 +1,1 @@
-<?php print_r($_ENV);
+<?php print_r($_SERVER);
