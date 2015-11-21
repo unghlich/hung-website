@@ -75,7 +75,7 @@ class DATABASE_CONFIG {
         $this->default = array(
             'datasource' => 'Database/Mysql',
             'persistent' => false,
-            'host' => '159.203.197.201',
+            'host' => 'localhost',
             'login' => $_SERVER['DB_USER'],
             'password' => $_SERVER['DB_PASSWORD'],
             'database' => $_SERVER['DB_NAME'],
