@@ -13,6 +13,6 @@ class HomeController extends AppController{
     }
 
     public function test(){
-
+        $this->layout = false;
     }
 } 
