@@ -6,6 +6,7 @@
  * Time: 11:13 AM
  */
 App::uses('AppController', 'Controller');
+App::uses('ConnectionManager','Model');
 
 class HomeController extends AppController{
     public function index(){
@@ -13,6 +14,8 @@ class HomeController extends AppController{
     }
 
     public function test(){
-        $this->layout = false;
+        $this->autoRender = false;
+        $db = ConnectionManager::getDataSource('default');
+        die(var_dump($db->connected));
     }
 } 
