@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/home/index">
-                    <img id="logo-header" src="/assets/img/logo.png" alt="Logo">
+                    <img id="logo-header" style="height: 50px" src="/assets/img/logochuan2.gif" alt="Logo">
                 </a>
             </div>
 
