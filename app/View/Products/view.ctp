@@ -17,16 +17,16 @@
                     <!-- Master Slider -->
                     <div class="master-slider ms-skin-default" id="masterslider">
                         <div class="ms-slide">
-                            <img class="ms-brd" src="assets/img/blank.gif" data-src="assets/img/blog/28.jpg" alt="lorem ipsum dolor sit">
-                            <img class="ms-thumb" src="assets/img/blog/28-thumb.jpg" alt="thumb">
+                            <img class="ms-brd" src="/assets/img/blank.gif" data-src="/assets/img/blog/28.jpg" alt="lorem ipsum dolor sit">
+                            <img class="ms-thumb" src="/assets/img/blog/28-thumb.jpg" alt="thumb">
                         </div>
                         <div class="ms-slide">
-                            <img src="assets/img/blank.gif" data-src="assets/img/blog/29.jpg" alt="lorem ipsum dolor sit">
-                            <img class="ms-thumb" src="assets/img/blog/29-thumb.jpg" alt="thumb">
+                            <img src="/assets/img/blank.gif" data-src="/assets/img/blog/29.jpg" alt="lorem ipsum dolor sit">
+                            <img class="ms-thumb" src="/assets/img/blog/29-thumb.jpg" alt="thumb">
                         </div>
                         <div class="ms-slide">
-                            <img src="assets/img/blank.gif" data-src="assets/img/blog/30.jpg" alt="lorem ipsum dolor sit">
-                            <img class="ms-thumb" src="assets/img/blog/30-thumb.jpg" alt="thumb">
+                            <img src="/assets/img/blank.gif" data-src="/assets/img/blog/30.jpg" alt="lorem ipsum dolor sit">
+                            <img class="ms-thumb" src="/assets/img/blog/30-thumb.jpg" alt="thumb">
                         </div>
                     </div>
                     <!-- End Master Slider -->
@@ -213,7 +213,7 @@
             <div class="tab-pane fade" id="reviews">
                 <div class="product-comment margin-bottom-40">
                     <div class="product-comment-in">
-                        <img class="product-comment-img rounded-x" src="assets/img/team/01.jpg" alt="">
+                        <img class="product-comment-img rounded-x" src="/assets/img/team/01.jpg" alt="">
                         <div class="product-comment-dtl">
                             <h4>Mickel <small>22 days ago</small></h4>
                             <p>I like the green colour, it's very likeable and reminds me of Hollister. A little loose though but I am very skinny</p>
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <h3 class="heading-md margin-bottom-30">Add a review</h3>
-                <form action="assets/php/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form sky-changes-4">
+                <form action="/assets/php/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form sky-changes-4">
                     <fieldset>
                         <div class="margin-bottom-30">
                             <label class="label-v2">Name</label>
@@ -296,7 +296,7 @@
 
         <ul class="list-inline owl-slider-v4">
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/09.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/09.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>
@@ -312,7 +312,7 @@
                 </div>
             </li>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/07.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/07.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>
@@ -329,7 +329,7 @@
                 </div>
             </li>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/08.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/08.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>
@@ -345,7 +345,7 @@
                 </div>
             </li>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/06.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/06.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>
@@ -361,7 +361,7 @@
                 </div>
             </li>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/04.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/04.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>
@@ -377,7 +377,7 @@
                 </div>
             </li>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="assets/img/thumb/03.jpg" alt=""></a>
+                <a href="#"><img class="img-responsive" src="/assets/img/thumb/03.jpg" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#">Double-breasted</a></h4>

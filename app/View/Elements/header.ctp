@@ -29,7 +29,7 @@
                     <ul class="list-inline right-topbar pull-right">
                         <li><a href="#">TÀI KHOẢN</a></li>
                         <li><a href="shop-ui-add-to-cart.html">Wishlist (0)</a></li>
-                        <li><a href="shop-ui-login.html">ĐĂNG NHẬP</a> | <a href="shop-ui-register.html">ĐĂNG KÝ</a></li>
+                        <li><a href="/users/login">ĐĂNG NHẬP</a> | <a href="/users/register">ĐĂNG KÝ</a></li>
                         <li><i class="search fa fa-search search-button"></i></li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/home/index">
                     <img id="logo-header" src="/assets/img/logo.png" alt="Logo">
                 </a>
             </div>
@@ -59,7 +59,7 @@
                 <!-- Shopping Cart -->
                 <ul class="list-inline shop-badge badge-lists badge-icons pull-right">
                     <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="/cart/"><i class="fa fa-shopping-cart"></i></a>
                         <span class="badge badge-sea rounded-x">3</span>
                         <ul class="list-unstyled badge-open mCustomScrollbar" data-mcs-theme="minimal-dark">
                             <li>
@@ -93,10 +93,10 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-6">
-                                        <a href="shop-ui-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">View Cart</a>
+                                        <a href="/cart/index" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">View Cart</a>
                                     </div>
                                     <div class="col-xs-6">
-                                        <a href="shop-ui-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">Checkout</a>
+                                        <a href="/cart/index" class="btn-u btn-u-sea-shop btn-block">Checkout</a>
                                     </div>
                                 </div>
                             </li>
@@ -109,7 +109,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Pages -->
                     <li class="dropdown active">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                        <a href="/home/" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
                             Trang chủ
                         </a>
                     </li>
@@ -117,23 +117,23 @@
 
                     <!-- Promotion -->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                        <a href="/products/index" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
                             Sản phẩm
                         </a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-submenu">
                                 <a href="javascript:void(0);">Jeans</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Skinny Jeans</a></li>
-                                    <li><a href="#">Bootcut Jeans</a></li>
-                                    <li><a href="#">Straight Cut Jeans</a></li>
+                                    <li><a href="/products/">Skinny Jeans</a></li>
+                                    <li><a href="/products/">Bootcut Jeans</a></li>
+                                    <li><a href="/products/">Straight Cut Jeans</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
                                 <a href="javascript:void(0);">Shoes</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Sandals</a></li>
-                                    <li><a href="#">Heels</a></li>
+                                    <li><a href="/products/">Sandals</a></li>
+                                    <li><a href="/products/">Heels</a></li>
                                 </ul>
                             </li>
                         </ul>
