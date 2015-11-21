@@ -76,9 +76,9 @@ class DATABASE_CONFIG {
             'datasource' => 'Database/Mysql',
             'persistent' => false,
             'host' => 'localhost',
-            'login' => $_SERVER['DB_USER'],
-            'password' => $_SERVER['DB_PASSWORD'],
-            'database' => $_SERVER['DB_NAME'],
+            'login' => 'root',
+            'password' => 'root',
+            'database' => 'smart_gift',
             'prefix' => '',
             'encoding' => 'utf8',
         );
