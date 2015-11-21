@@ -77,7 +77,7 @@ class DATABASE_CONFIG {
             'persistent' => false,
             'host' => 'localhost',
             'login' => 'root',
-            'password' => 'root',
+            'password' => 'Camtamtinhnguyen25121990',
             'database' => 'smart_gift',
             'prefix' => '',
             'encoding' => 'utf8',
