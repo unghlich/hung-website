@@ -803,7 +803,7 @@
 }
 
 .header-fixed .header-v5.header-fixed-shrink .navbar-brand img {
-    width: 90%;
+    /*width: 90%;*/
 }
 
 .header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > .dropdown-menu {
