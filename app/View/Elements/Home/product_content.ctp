@@ -30,8 +30,8 @@
 <!--=== End Illustration v1 ===-->
 
 <div class="heading heading-v1 margin-bottom-20">
-    <h2>Featured products</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio elit, ultrices vel cursus sed, placerat ut leo. Phasellus in magna erat. Etiam gravida convallis augue non tincidunt. Nunc lobortis dapibus neque quis lacinia. Nam dapibus tellus sit amet odio venenatis</p>
+    <h2>Sản phẩm nổi bật</h2>
+    <p>Công ty chúng tôi là đơn vị cung cấp các sản phẩm quà tặng cho doanh nghiệp, cá nhân. Những sản phẩm quà tặng là sự lựa chọn thông minh của người tặng đến doanh nghiệp cũng như người thân, đồng nghiệp, đối tác của mình.</p>
 </div>
 
 <!--=== Illustration v2 ===-->
@@ -260,7 +260,7 @@
 <!--=== End Illustration v3 ===-->
 
 <div class="heading heading-v1 margin-bottom-40">
-    <h2>Latest products</h2>
+    <h2>Sản phẩm mới</h2>
 </div>
 
 <!--=== Illustration v2 ===-->

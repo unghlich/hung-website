@@ -12,7 +12,7 @@
                 <i class="fa fa-truck"></i>
             </div>
             <div class="product-service-in">
-                <h3>Free Delivery</h3>
+                <h3>Hình thức giao hàng</h3>
                 <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar semper veliUt porta, leo...</p>
                 <a href="#">+Read More</a>
             </div>
@@ -22,7 +22,7 @@
                 <i class="icon-earphones-alt"></i>
             </div>
             <div class="product-service-in">
-                <h3>Customer Service</h3>
+                <h3>Tư vấn sản phẩm</h3>
                 <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar semper veliUt porta, leo...</p>
                 <a href="#">+Read More</a>
             </div>
@@ -32,7 +32,7 @@
                 <i class="icon-refresh"></i>
             </div>
             <div class="product-service-in">
-                <h3>Free Returns</h3>
+                <h3>Đặt hàng online</h3>
                 <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar semper veliUt porta, leo...</p>
                 <a href="#">+Read More</a>
             </div>
@@ -44,7 +44,7 @@
     <div class="row illustration-v4 margin-bottom-40">
         <div class="col-md-4">
             <div class="heading heading-v1 margin-bottom-20">
-                <h2>Top Rated</h2>
+                <h2>Bán chạy</h2>
             </div>
             <div class="thumb-product">
                 <img class="thumb-product-img" src="/assets/img/thumb/08.jpg" alt="">
@@ -83,7 +83,7 @@
         </div>
         <div class="col-md-4">
             <div class="heading heading-v1 margin-bottom-20">
-                <h2>Best Sellers</h2>
+                <h2>Giảm giá</h2>
             </div>
             <div class="thumb-product">
                 <img class="thumb-product-img" src="/assets/img/thumb/02.jpg" alt="">
@@ -122,7 +122,7 @@
         </div>
         <div class="col-md-4 padding">
             <div class="heading heading-v1 margin-bottom-20">
-                <h2>Sale Items</h2>
+                <h2>Khuyến mại</h2>
             </div>
             <div class="thumb-product">
                 <img class="thumb-product-img" src="/assets/img/thumb/07.jpg" alt="">
@@ -191,8 +191,8 @@
 <!--=== Sponsors ===-->
 <div class="container content">
     <div class="heading heading-v1 margin-bottom-40">
-        <h2>Sponsors</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio elit, ultrices vel cursus sed, placerat ut leo. Phasellus in magna erat. Etiam gravida convallis augue non tincidunt. Nunc lobortis dapibus neque quis lacinia. Nam dapibus tellus sit amet odio venenatis</p>
+        <h2>Đối tác</h2>
+        <p>Công ty chúng tôi hân hạnh trong nhiều năm liền là đơn vị cung cấp cho các đối tác có thương hiệu trên thị trường.</p>
     </div>
 
     <ul class="list-inline owl-slider-v2">
@@ -241,11 +241,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 md-margin-bottom-20">
-                <h2>subscribe to our weekly <strong>newsletter</strong></h2>
+                <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
             </div>
             <div class="col-md-4">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email your email...">
+                    <input type="text" class="form-control" placeholder="Email của bạn...">
                         <span class="input-group-btn">
                             <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
                         </span>

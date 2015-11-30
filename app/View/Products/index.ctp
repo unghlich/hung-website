@@ -16,13 +16,13 @@
 <div class="content container">
 <div class="row">
 <div class="col-md-3 filter-by-block md-margin-bottom-60">
-<h1>Filter By</h1>
+<h1>Tìm kiếm theo</h1>
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Brands
+                    Đang khuyến mại
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -81,7 +81,7 @@
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
-                    Categories
+                    Loại quà tặng
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -124,7 +124,7 @@
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
-                    Size
+                    Kích cỡ
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -175,7 +175,7 @@
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
-                    Price
+                    Giá
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -197,7 +197,7 @@
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
-                    Color
+                    Chất liệu
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -223,7 +223,7 @@
         <div class="panel-heading">
             <h2 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
-                    Rating
+                    Yêu thích
                     <i class="fa fa-angle-down"></i>
                 </a>
             </h2>
@@ -574,11 +574,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 md-margin-bottom-20">
-                <h2>subscribe to our weekly <strong>newsletter</strong></h2>
+                <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
             </div>
             <div class="col-md-4">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email your email...">
+                    <input type="text" class="form-control" placeholder="Email của bạn...">
                         <span class="input-group-btn">
                             <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
                         </span>

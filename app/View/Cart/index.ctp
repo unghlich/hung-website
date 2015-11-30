@@ -6,7 +6,7 @@
         <ul class="breadcrumb-v4-in">
             <li><a href="index.html">Home</a></li>
             <li><a href="">Product</a></li>
-            <li class="active">Shopping Cart</li>
+            <li class="active">Giỏ hàng</li>
         </ul>
     </div><!--/end container-->
 </div>
@@ -19,8 +19,8 @@
 <div>
 <div class="header-tags">
     <div class="overflow-h">
-        <h2>Shopping Cart</h2>
-        <p>Review &amp; edit your product</p>
+        <h2>Giỏ hàng</h2>
+        <p>Chi tiết &amp; chỉnh sửa giỏ hàng</p>
         <i class="rounded-x fa fa-check"></i>
     </div>
 </div>
@@ -29,10 +29,10 @@
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Qty</th>
-                <th>Total</th>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng</th>
             </tr>
             </thead>
             <tbody>
@@ -384,11 +384,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 md-margin-bottom-20">
-                <h2>subscribe to our weekly <strong>newsletter</strong></h2>
+                <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
             </div>
             <div class="col-md-4">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email your email...">
+                    <input type="text" class="form-control" placeholder="Email của bạn">
                         <span class="input-group-btn">
                             <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
                         </span>

@@ -11,8 +11,9 @@
                     <ul class="list-unstyled address-list margin-bottom-20">
                         <li><i class="fa fa-angle-right"></i>Nhà N5, khu D, ngõ 59 Láng Hạ, Ba Đình, Hà Nội</li>
                         <li><i class="fa fa-angle-right"></i>Di động: 09718 2222 6</li>
-                        <li><i class="fa fa-angle-right"></i>Máy bàn: 800 123 3456</li>
+                        <li><i class="fa fa-angle-right"></i>Máy bàn: 046 292 1168</li>
                         <li><i class="fa fa-angle-right"></i>Email: quatangthongminh.net@gmail.com</li>
+                        <li><i class="fa fa-angle-right"></i>Skype: SmartGift</li>
                     </ul>
 
                     <ul class="list-inline shop-social">

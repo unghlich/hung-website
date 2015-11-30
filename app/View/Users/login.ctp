@@ -44,13 +44,13 @@
 
             <div class="col-md-5">
                 <form id="sky-form1" class="log-reg-block sky-form">
-                    <h2>Log in to your account</h2>
+                    <h2>Đăng nhập bằng tài khoản </h2>
 
                     <section>
                         <label class="input login-input">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input type="email" placeholder="Email Address" name="email" class="form-control">
+                                <input type="email" placeholder="Tài khoản hoặc email" name="email" class="form-control">
                             </div>
                         </label>
                     </section>
@@ -58,7 +58,7 @@
                         <label class="input login-input no-border-top">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" placeholder="Password" name="password" class="form-control">
+                                <input type="password" placeholder="Mật khẩu" name="password" class="form-control">
                             </div>
                         </label>
                     </section>
@@ -67,31 +67,31 @@
                             <label class="checkbox">
                                 <input type="checkbox" name="checkbox"/>
                                 <i></i>
-                                Remember me
+                                Ghi nhớ
                             </label>
                         </div>
                         <div class="col-xs-6 text-right">
-                            <a href="#">Forget your Password?</a>
+                            <a href="#">Quên mật khẩu?</a>
                         </div>
                     </div>
-                    <button class="btn-u btn-u-sea-shop btn-block margin-bottom-20" type="submit">Log in</button>
+                    <button class="btn-u btn-u-sea-shop btn-block margin-bottom-20" type="submit">Đăng nhập</button>
 
                     <div class="border-wings">
-                        <span>or</span>
+                        <span>hoặc</span>
                     </div>
 
                     <div class="row columns-space-removes">
                         <div class="col-lg-6 margin-bottom-10">
-                            <button type="button" class="btn-u btn-u-md btn-u-fb btn-block"><i class="fa fa-facebook"></i> Facebook Log In</button>
+                            <button type="button" class="btn-u btn-u-md btn-u-fb btn-block"><i class="fa fa-facebook"></i> Tài khoản Facebook</button>
                         </div>
                         <div class="col-lg-6">
-                            <button type="button" class="btn-u btn-u-md btn-u-tw btn-block"><i class="fa fa-twitter"></i> Twitter Log In</button>
+                            <button type="button" class="btn-u btn-u-md btn-u-tw btn-block"><i class="fa fa-twitter"></i> Tài khoản Google</button>
                         </div>
                     </div>
                 </form>
 
                 <div class="margin-bottom-20"></div>
-                <p class="text-center">Don't have account yet? Learn more and <a href="shop-ui-register.html">Sign Up</a></p>
+                <p class="text-center">Nếu bạn chưa có tài khoản <a href="shop-ui-register.html">Đăng ký</a></p>
             </div>
         </div><!--/end row-->
     </div><!--/end container-->
@@ -103,11 +103,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 md-margin-bottom-20">
-                <h2>subscribe to our weekly <strong>newsletter</strong></h2>
+                <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
             </div>
             <div class="col-md-4">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email your email...">
+                    <input type="text" class="form-control" placeholder="Email của bạn...">
                         <span class="input-group-btn">
                             <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
                         </span>

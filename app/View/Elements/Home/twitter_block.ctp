@@ -2,7 +2,7 @@
 <div class="parallaxBg twitter-block margin-bottom-60">
     <div class="container">
         <div class="heading heading-v1 margin-bottom-20">
-            <h2>Latest Tweets</h2>
+            <h2>Tin khuyến mại</h2>
         </div>
 
         <div id="carousel-example-generic-v5" class="carousel slide" data-ride="carousel">
