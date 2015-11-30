@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="google-site-verification" content="L51uEmRKQMX9YAit-d7_jslkfdrJlQooCKEb2YmbqbU" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.gif">

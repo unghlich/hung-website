@@ -14,7 +14,7 @@ class HomeController extends AppController{
     }
 
     public function test(){
-        die;$this->autoRender = false;
+        $this->autoRender = false;
         $db = ConnectionManager::getDataSource('default');
         die(var_dump($db->connected));
     }
