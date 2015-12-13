@@ -75,10 +75,13 @@ class DATABASE_CONFIG {
         $this->default = array(
             'datasource' => 'Database/Mysql',
             'persistent' => false,
-            'host' => '127.0.0.1',
-            'login' => $_SERVER['DB_USER'],
-            'password' => $_SERVER['DB_PASSWORD'],
-            'database' => $_SERVER['DB_NAME'],
+            //'host' => '127.0.0.1',
+            'host' => 'localhost',
+//            'login' => $_SERVER['DB_USER'],
+            'login' => 'root',
+//            'password' => $_SERVER['DB_PASSWORD'],
+            'password' => '',
+            'database' => 'smart_gift',
             'prefix' => '',
             'encoding' => 'utf8',
         );

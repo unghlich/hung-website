@@ -29,6 +29,23 @@
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
+// routes.php
+Router::connect(
+    '/chi-tiet-san-pham/:slug', // E.g. /blog/3-CakePHP_Rocks
+    array('controller' => 'products', 'action' => 'view'),
+    array(
+        'pass' => array('slug'),
+    )
+);
+
+Router::connect(
+    '/san-pham/:slug', // E.g. /blog/3-CakePHP_Rocks
+    array('controller' => 'products', 'action' => 'index'),
+    array(
+        'pass' => array('slug'),
+    )
+);
+
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**

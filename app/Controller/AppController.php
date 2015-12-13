@@ -29,6 +29,15 @@ App::uses('Controller', 'Controller');
  *
  * @package		app.Controller
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
+ * @property Category $Category
  */
 class AppController extends Controller {
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->loadModel('Category');
+        $this->set('categoryMenus',$this->Category->find('all',array(
+            'recursive' => -1,
+            'conditions'=> array('active_flag' => 1)
+        )));
+    }
 }

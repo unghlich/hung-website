@@ -39,6 +39,12 @@
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- JS Global Compulsory -->
+    <script src="/assets/plugins/jquery/jquery.min.js"></script>
+    <script src="/assets/plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="header-fixed">
@@ -52,10 +58,6 @@
 <?php echo  $this->element('footer')?>
 </div><!--/wrapper-->
 
-<!-- JS Global Compulsory -->
-<script src="/assets/plugins/jquery/jquery.min.js"></script>
-<script src="/assets/plugins/jquery/jquery-migrate.min.js"></script>
-<script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- JS Implementing Plugins -->
 <script src="/assets/plugins/back-to-top.js"></script>
 <script src="/assets/plugins/smoothScroll.js"></script>

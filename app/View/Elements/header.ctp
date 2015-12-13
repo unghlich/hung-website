@@ -108,8 +108,8 @@
                 <!-- Nav Menu -->
                 <ul class="nav navbar-nav">
                     <!-- Pages -->
-                    <li class="dropdown active">
-                        <a href="/home/" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                    <li class="dropdown">
+                        <a href="/" class="dropdown-toggle" data-hover="dropdown" >
                             Trang chủ
                         </a>
                     </li>
@@ -121,21 +121,20 @@
                             Sản phẩm
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-submenu">
-                                <a href="javascript:void(0);">Jeans</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/products/">Skinny Jeans</a></li>
-                                    <li><a href="/products/">Bootcut Jeans</a></li>
-                                    <li><a href="/products/">Straight Cut Jeans</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a href="javascript:void(0);">Shoes</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/products/">Sandals</a></li>
-                                    <li><a href="/products/">Heels</a></li>
-                                </ul>
-                            </li>
+                            <?php foreach($categoryMenus as $cm): ?>
+                                <?php if($cm['Category']['parrent_id'] == 0):?>
+                                <li class="dropdown-submenu">
+                                    <a href="<?php echo Router::url(array('controller'=>'products','action'=>'index','slug'=>$cm['Category']['slug']))?>"><?php echo $cm['Category']['name']?></a>
+                                    <ul class="dropdown-menu">
+                                        <?php foreach($categoryMenus as $cm2): ?>
+                                            <?php if($cm['Category']['id'] == $cm2['Category']['parrent_id']) :?>
+                                                <li><a href="<?php echo Router::url(array('controller'=>'products','action'=>'index','slug'=>$cm2['Category']['slug']))?>"><?php echo $cm2['Category']['name']?></a></li>
+                                            <?php endif?>
+                                        <?php endforeach?>
+                                    </ul>
+                                </li>
+                                <?php endif?>
+                            <?php endforeach?>
                         </ul>
                     </li>
                     <!-- End Promotion -->

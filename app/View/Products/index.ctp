@@ -15,303 +15,41 @@
 <!--=== Content Part ===-->
 <div class="content container">
 <div class="row">
-<div class="col-md-3 filter-by-block md-margin-bottom-60">
-<h1>Tìm kiếm theo</h1>
-<div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Đang khuyến mại
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <ul class="list-unstyled checkbox-list">
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" checked />
-                            <i></i>
-                            Calvin Klein
-                            <small><a href="#">(23)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" checked />
-                            <i></i>
-                            Gucci
-                            <small><a href="#">(4)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            Adidas
-                            <small><a href="#">(11)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            Puma
-                            <small><a href="#">(3)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            Zara
-                            <small><a href="#">(87)</a></small>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-
-<div class="panel-group" id="accordion-v2">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
-                    Loại quà tặng
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseTwo" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <ul class="list-unstyled checkbox-list">
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" checked />
-                            <i></i>
-                            Clothes
-                            <small><a href="#">(23)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" checked />
-                            <i></i>
-                            Glasses
-                            <small><a href="#">(4)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            Shoes
-                            <small><a href="#">(11)</a></small>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-
-<div class="panel-group" id="accordion-v3">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
-                    Kích cỡ
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseThree" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <ul class="list-unstyled checkbox-list">
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            S
-                            <small><a href="#">(23)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" checked />
-                            <i></i>
-                            M
-                            <small><a href="#">(4)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            L
-                            <small><a href="#">(11)</a></small>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="checkbox">
-                            <input type="checkbox" name="checkbox" />
-                            <i></i>
-                            XL
-                            <small><a href="#">(3)</a></small>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-
-<div class="panel-group" id="accordion-v4">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
-                    Giá
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <div class="slider-snap"></div>
-                <p class="slider-snap-text">
-                    <span class="slider-snap-value-lower"></span>
-                    <span class="slider-snap-value-upper"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-
-<div class="panel-group" id="accordion-v5">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
-                    Chất liệu
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseFive" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <ul class="list-inline product-color-list">
-                    <li><a href="#"><img src="/assets/img/colors/01.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/02.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/03.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/04.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/05.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/06.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="/assets/img/colors/07.jpg" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-
-<div class="panel-group margin-bottom-30" id="accordion-v6">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h2 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
-                    Yêu thích
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </h2>
-        </div>
-        <div id="collapseSix" class="panel-collapse collapse in">
-            <div class="panel-body">
-                <div class="stars-ratings stars-ratings-label">
-                    <input type="radio" name="stars-rating" id="stars-rating-5">
-                    <label for="stars-rating-5"><i class="fa fa-star"></i></label>
-                    <input type="radio" name="stars-rating" id="stars-rating-4">
-                    <label for="stars-rating-4"><i class="fa fa-star"></i></label>
-                    <input type="radio" name="stars-rating" id="stars-rating-3">
-                    <label for="stars-rating-3"><i class="fa fa-star"></i></label>
-                    <input type="radio" name="stars-rating" id="stars-rating-2">
-                    <label for="stars-rating-2"><i class="fa fa-star"></i></label>
-                    <input type="radio" name="stars-rating" id="stars-rating-1">
-                    <label for="stars-rating-1"><i class="fa fa-star"></i></label>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--/end panel group-->
-<button type="button" class="btn-u btn-brd btn-brd-hover btn-u-lg btn-u-sea-shop btn-block">Reset</button>
-</div>
+<?php echo $this->element('Product/filter_product')?>
 
 <div class="col-md-9">
 <div class="row margin-bottom-5">
     <div class="col-sm-4 result-category">
-        <h2>Men</h2>
-        <small class="shop-bg-red badge-results">45 Results</small>
+        <?php if(isset($category)) :?>
+            <h2><?php echo $category['Category']['name']?></h2>
+        <?php endif?>
+<!--        <small class="shop-bg-red badge-results">45 Results</small>-->
     </div>
-    <div class="col-sm-8">
-        <ul class="list-inline clear-both">
-            <li class="grid-list-icons">
-                <a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>
-                <a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>
-            </li>
-            <li class="sort-list-btn">
-                <h3>Sort By :</h3>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        Popularity <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">All</a></li>
-                        <li><a href="#">Best Sales</a></li>
-                        <li><a href="#">Top Last Week Sales</a></li>
-                        <li><a href="#">New Arrived</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="sort-list-btn">
-                <h3>Show :</h3>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        20 <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">All</a></li>
-                        <li><a href="#">10</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">3</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </div>
+    <?php echo $this->element('Product/sort_product_top')?>
 </div><!--/end result category-->
 
 <div class="filter-results">
 <div class="row illustration-v2 margin-bottom-30">
+    <?php foreach($products as $product):?>
     <div class="col-md-4">
         <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/16.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-            <div class="shop-rgba-dark-green rgba-banner">New</div>
+            <a href="#"><img class="full-width img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$product['Product']['avatar'];?>" alt=""></a>
+            <a class="product-review" href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$product['Product']['slug']))?>">Xem chi tiết</a>
+            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+            <?php if($product['Product']['hot_flag']) : ?>
+            <div class="shop-rgba-dark-green rgba-banner">Hot</div>
+            <?php endif?>
         </div>
         <div class="product-description product-description-brd margin-bottom-30">
             <div class="overflow-h margin-bottom-5">
                 <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
+                    <h4 class="title-price"><a href="/products/view"><?php echo $product['Product']['name']?></a></h4>
+<!--                    <span class="gender text-uppercase">Giá</span>-->
+<!--                    <span class="gender">Giá gốc</span>-->
                 </div>
                 <div class="product-price">
-                    <span class="title-price">$60.00</span>
-                    <span class="title-price line-through">$95.00</span>
+                    <span class="title-price"><?php echo $product['Product']['price']?>.000 vnđ</span>
+<!--                    <span class="title-price line-through">$95.00</span>-->
                 </div>
             </div>
             <ul class="list-inline product-ratings">
@@ -324,242 +62,16 @@
             </ul>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/17.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$60.00</span>
-                    <span class="title-price line-through">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/18.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
+    <?php endforeach?>
 </div>
 
-<div class="row illustration-v2 margin-bottom-30">
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/21.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/22.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$60.00</span>
-                    <span class="title-price line-through">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/23.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-            <div class="shop-rgba-red rgba-banner">Out of stock</div>
-        </div>
-        <div class="product-description product-description-brd">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="row illustration-v2">
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/16.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-            <div class="shop-rgba-dark-green rgba-banner">New</div>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$60.00</span>
-                    <span class="title-price line-through">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/17.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$60.00</span>
-                    <span class="title-price line-through">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="/assets/img/blog/18.jpg" alt=""></a>
-            <a class="product-review" href="/products/view">Quick review</a>
-            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-        </div>
-        <div class="product-description product-description-brd margin-bottom-30">
-            <div class="overflow-h margin-bottom-5">
-                <div class="pull-left">
-                    <h4 class="title-price"><a href="/products/view">Double-breasted</a></h4>
-                    <span class="gender text-uppercase">Men</span>
-                    <span class="gender">Suits - Blazers</span>
-                </div>
-                <div class="product-price">
-                    <span class="title-price">$95.00</span>
-                </div>
-            </div>
-            <ul class="list-inline product-ratings">
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating-selected fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li><i class="rating fa fa-star"></i></li>
-                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 </div><!--/end filter resilts-->
 
 <div class="text-center">
     <ul class="pagination pagination-v2">
         <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-        <li><a href="#">1</a></li>
-        <li class="active"><a href="#">2</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
         <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
     </ul>
@@ -569,22 +81,4 @@
 </div><!--/end container-->
 <!--=== End Content Part ===-->
 
-<!--=== Shop Suvbscribe ===-->
-<div class="shop-subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 md-margin-bottom-20">
-                <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
-            </div>
-            <div class="col-md-4">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email của bạn...">
-                        <span class="input-group-btn">
-                            <button class="btn" type="button"><i class="fa fa-envelope-o"></i></button>
-                        </span>
-                </div>
-            </div>
-        </div>
-    </div><!--/end container-->
-</div>
-<!--=== End Shop Suvbscribe ===-->
+<?php echo $this->element('Home/register_mail')?>
