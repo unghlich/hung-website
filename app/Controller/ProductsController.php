@@ -114,7 +114,7 @@ class ProductsController extends AppController {
                 $filename = date('dmYhis').uniqid().basename($this->request->data['Product']['avatar']['name']);
                 move_uploaded_file(
                     $this->request->data['Product']['avatar']['tmp_name'],
-                    WWW_ROOT . DS . 'uploads' . DS.'products' .DS. $filename
+                    WWW_ROOT . 'uploads' . DS.'products' .DS. $filename
                 );
             }
             // Set the file-name only to save in the database
@@ -132,7 +132,7 @@ class ProductsController extends AppController {
                         $imageName = date('dmYhis').uniqid().basename($im['name']);
                         move_uploaded_file(
                             $im['tmp_name'],
-                            WWW_ROOT . DS . 'uploads' . DS.'products' .DS. $imageName
+                            WWW_ROOT . 'uploads' . DS.'products' .DS. $imageName
                         );
                         $imageNames[] = $imageName;
                     }
