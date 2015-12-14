@@ -30,7 +30,7 @@
             <div class="form-group">
                 <?php
                 echo $this->Form->submit(
-                    'Tạo mới danh mục',
+                    'Sửa danh mục',
                     array('div' => false,'class' => 'btn btn-primary', 'title' => 'Tạo mới')
                 );
                 ?>
