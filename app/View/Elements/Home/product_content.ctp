@@ -65,7 +65,7 @@
 </div>
 <!--=== End Illustration v2 ===-->
 
-<!--<!--=== Illustration v3 ===-->-->
+<!--<!--=== Illustration v3 ===-->
 <!--<div class="row margin-bottom-50">-->
 <!--    <div class="col-md-4 md-margin-bottom-30">-->
 <!--        <div class="overflow-h">-->
@@ -128,7 +128,7 @@
         <div class="product-description product-description-brd">
             <div class="overflow-h margin-bottom-5">
                 <div class="pull-left">
-                    <h4 class="title-price"><a href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$np['Product']['slug']))?>"><?php echo $nb['Product']['name']?></a></h4>
+                    <h4 class="title-price"><a href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$np['Product']['slug']))?>"><?php echo $np['Product']['name']?></a></h4>
 <!--                    <span class="gender text-uppercase">Woman</span>-->
 <!--                    <span class="gender">Suits - Blazers</span>-->
                 </div>
