@@ -5,7 +5,7 @@
     <?php foreach($banners2 as $b2) : ?>
     <div class="col-md-6 md-margin-bottom-30">
         <div class="overflow-h">
-            <div class="illustration-v1 illustration-img1" style="background-image: url(<?php echo $this->webroot.'uploads/banners/'.$b2['Banner']['path']?>)">
+            <div class="illustration-v1 illustration-img1" style="background-image: url(<?php echo $this->webroot.'upload/'.$b2['Banner']['path']?>)">
                 <div class="illustration-bg">
                     <div class="illustration-ads ad-details-v1">
                         <h3><?php echo $b2['Banner']['description']?></h3>

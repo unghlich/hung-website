@@ -6,7 +6,7 @@
 <!-- SLIDE -->
 <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
     <!-- MAIN IMAGE -->
-    <img src="<?php echo $this->webroot.'uploads/banners/'.$banner['Banner']['path'];?>"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+    <img src="<?php echo $this->webroot.'upload/'.$banner['Banner']['path'];?>"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
     <div class="tp-caption revolution-ch1 sft start"
          data-x="center"

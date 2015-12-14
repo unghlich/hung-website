@@ -58,7 +58,7 @@ class BannersController extends AppController {
                 $filename = date('dmYhis').uniqid().basename($this->request->data['Banner']['path']['name']);
                 move_uploaded_file(
                     $this->request->data['Banner']['path']['tmp_name'],
-                    WWW_ROOT . 'uploads' . DS.'banners' .DS. $filename
+                    WWW_ROOT . 'upload'.DS. $filename
                 );
             }
             // Set the file-name only to save in the database
