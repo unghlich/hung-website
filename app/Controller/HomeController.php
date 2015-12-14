@@ -41,7 +41,7 @@ class HomeController extends AppController{
         ));
 
         $newProduct = $this->Product->find('all',array(
-            'conditions' => array('highlight_flag' => 1),
+//            'conditions' => array('highlight_flag' => 1),
             'limit'         => 10
         ));
 
