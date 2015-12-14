@@ -4,6 +4,7 @@
         <?php echo $this->Form->create('Category',array('novalidate' => true)); ?>
         <fieldset>
             <legend><?php echo __('Sửa danh mục sản phẩm'); ?></legend>
+            <?php echo $this->Form->input('id');?>
             <div class="form-group">
                 <div class="col-lg-3">
                     <label for="CategoryName">Tên sản phẩm</label>
