@@ -20,7 +20,7 @@
                         <?php foreach($product['ProductImage'] as $pi):?>
                         <div class="ms-slide">
                             <img class="ms-brd" src="/assets/img/blank.gif" data-src="/assets/img/blog/28.jpg" alt="lorem ipsum dolor sit">
-                            <img class="ms-thumb img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$pi['path'];?>" alt="thumb">
+                            <img class="ms-thumb img-responsive" src="<?php echo $this->webroot.'upload/'.$pi['path'];?>" alt="thumb">
                         </div>
                         <?php endforeach?>
                     </div>

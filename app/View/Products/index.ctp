@@ -33,7 +33,7 @@
     <?php foreach($products as $product):?>
     <div class="col-md-4">
         <div class="product-img product-img-brd">
-            <a href="#"><img class="full-width img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$product['Product']['avatar'];?>" alt=""></a>
+            <a href="#"><img class="full-width img-responsive" src="<?php echo $this->webroot.'upload/'.$product['Product']['avatar'];?>" alt=""></a>
             <a class="product-review" href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$product['Product']['slug']))?>">Xem chi tiết</a>
             <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
             <?php if($product['Product']['hot_flag']) : ?>

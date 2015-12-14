@@ -35,7 +35,7 @@
         <?php foreach($htProduct as $htp):?>
         <li class="item">
             <div class="product-img">
-                <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$htp['Product']['avatar'];?>" alt=""></a>
+                <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="<?php echo $this->webroot.'upload/'.$htp['Product']['avatar'];?>" alt=""></a>
                 <a class="product-review" href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$htp['Product']['slug']))?>">Xem chi tiết</a>
                 <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
             </div>
@@ -121,7 +121,7 @@
     <?php foreach ($newProduct as $np) : ?>
     <div class="col-md-3 col-sm-6 md-margin-bottom-30">
         <div class="product-img">
-            <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$np['Product']['avatar'];?>" alt=""></a>
+            <a href="shop-ui-inner.html"><img class="full-width img-responsive" src="<?php echo $this->webroot.'upload/'.$np['Product']['avatar'];?>" alt=""></a>
             <a class="product-review" href="<?php echo Router::url(array('controller'=>'products','action'=>'view','slug'=>$np['Product']['slug']))?>">Xem chi tiết</a>
             <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
         </div>

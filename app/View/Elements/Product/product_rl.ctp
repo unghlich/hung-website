@@ -13,7 +13,7 @@
         <ul class="list-inline owl-slider-v4">
             <?php foreach($listProducts as $lp):?>
             <li class="item">
-                <a href="#"><img class="img-responsive" src="<?php echo $this->webroot.'uploads/products/'.$lp['Product']['avatar'];?>" alt=""></a>
+                <a href="#"><img class="img-responsive" src="<?php echo $this->webroot.'upload/'.$lp['Product']['avatar'];?>" alt=""></a>
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price"><a href="#"><?php echo $lp['Product']['name']?></a></h4>
