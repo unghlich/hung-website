@@ -131,117 +131,20 @@
 <div class="container content-md">
 
     <div class="row illustration-v4 margin-bottom-40">
+        @foreach ($categories as $kCate => $category)
         <div class="col-md-4">
 
             <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/08.jpg" alt="">
+                <img class="thumb-product-img" src="/upload/productCategories/{{$category['name']}}.jpg" alt="">
                 <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
+                    <h4><a href="shop-ui-inner.html">{{$category['name']}}</a></h4>
+                    <span class="thumb-product-type">{{$category['description']}}</span>
                 </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price line-through">$75.00</li>
-                    <li class="thumb-product-price">$65.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/09.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/03.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4">
 
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/02.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
             </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/10.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/06.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price line-through">$75.00</li>
-                    <li class="thumb-product-price">$65.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4 padding">
 
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/07.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price line-through">$75.00</li>
-                    <li class="thumb-product-price">$65.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/04.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
-            <div class="thumb-product">
-                <img class="thumb-product-img" src="/assets/img/thumb/05.jpg" alt="">
-                <div class="thumb-product-in">
-                    <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
-                    <span class="thumb-product-type">Footwear - Oxfords</span>
-                </div>
-                <ul class="list-inline overflow-h">
-                    <li class="thumb-product-price">$75.00</li>
-                    <li class="thumb-product-purchase"><a href="#"><i class="fa fa-shopping-cart"></i></a> | <a href="#"><i class="fa fa-heart"></i></a></li>
-                </ul>
-            </div>
         </div>
+        @endforeach
     </div><!--/end row-->
 
 
@@ -253,7 +156,7 @@
             <div class="col-md-4">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/08.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/08.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -265,7 +168,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/09.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/09.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -276,7 +179,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/03.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/03.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -290,7 +193,7 @@
             <div class="col-md-4">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/02.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/02.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -301,7 +204,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/10.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/10.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -312,7 +215,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/06.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/06.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -327,7 +230,7 @@
             <div class="col-md-4 padding">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/07.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/07.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -339,7 +242,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/04.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/04.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -350,7 +253,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/05.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/05.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -372,7 +275,7 @@
             <div class="col-md-4">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/08.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/08.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -384,7 +287,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/09.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/09.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -395,7 +298,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/03.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/03.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -409,7 +312,7 @@
             <div class="col-md-4">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/02.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/02.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -420,7 +323,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/10.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/10.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -431,7 +334,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/06.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/06.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -446,7 +349,7 @@
             <div class="col-md-4 padding">
 
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/07.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/07.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -458,7 +361,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/04.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/04.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>
@@ -469,7 +372,7 @@
                     </ul>
                 </div>
                 <div class="thumb-product">
-                    <img class="thumb-product-img" src="/assets/img/thumb/05.jpg" alt="">
+                    <img class="thumb-product-img" src="/upload/productCategories/05.jpg" alt="">
                     <div class="thumb-product-in">
                         <h4><a href="shop-ui-inner.html">Yuketen</a> – <a href="shop-ui-inner.html">Derby Shoe</a></h4>
                         <span class="thumb-product-type">Footwear - Oxfords</span>

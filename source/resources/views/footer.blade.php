@@ -5,6 +5,7 @@
             <div class="row">
                 <!-- About -->
                 <div class="col-md-4 md-margin-bottom-40">
+                    <a href="index.html"><img style="height: auto; width: 50%" class="footer-logo col-md-12" src="/assets/img/Logo_footer.png" alt=""></a>
                     <br>
                     <ul class="list-unstyled address-list margin-bottom-20">
                         <li><i class="fa fa-angle-right"></i>Nhà N5, khu D, ngõ 59 Láng Hạ, Ba Đình, Hà Nội</li>
@@ -16,9 +17,7 @@
 
                     <ul class="list-inline shop-social">
                         <li><a href="#"><i class="fb rounded-md fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="tw rounded-md fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="gp rounded-md fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="yt rounded-md fa fa-youtube"></i></a></li>
+
                     </ul>
                 </div>
                 <!-- End About -->

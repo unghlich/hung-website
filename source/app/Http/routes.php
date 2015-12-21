@@ -14,7 +14,19 @@
 use SmartGift\Product\Product;
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',[
+        'categories'=>[
+            ['name'=> 'Biểu Trưng Pha Lê','description' => 'Biểu Trưng Pha Lê'],
+            ['name'=> 'Biểu-Trưng-đồng','description' => 'Biểu-Trưng-đồng'],
+            ['name'=> 'Cúp-Pha-Lê','description' => 'Cúp-Pha-Lê'],
+            ['name'=> 'Cốc','description' => 'Cốc'],
+            ['name'=> 'Cốc-In-Ảnh','description' => 'Cốc-In-Ảnh'],
+            ['name'=> 'Cốc-Thủy-Tinh','description' => 'Cốc-Thuỷ-Tinh'],
+            ['name'=> 'In-Đĩa','description' => 'In-Đĩa'],
+            ['name'=> 'In-Ảnh-Lên-Pha-Lê','description' => 'In-Ảnh-Lên-Pha-Lê'],
+            ['name'=> 'Móc-Khóa','description' => 'Móc-Khóa'],
+            ['name'=> 'Thẻ-Tên-Huy-Hiệu-Đồng','description' => 'Thẻ-Tên-Huy-Hiệu-Đồng'],
+        ]]);
 });
 Route::get('/product', function (Product $product) {
 
