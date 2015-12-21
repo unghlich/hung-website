@@ -6,12 +6,20 @@
     <div class="tp-banner">
         <ul>
             <!-- SLIDE -->
+            <li class="" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
+                <!-- MAIN IMAGE -->
+                <img src="/upload/banner4.jpg"  alt=""  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+
+            </li>
+            <!-- END SLIDE -->
+            <!-- SLIDE -->
             <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
                 <!-- MAIN IMAGE -->
-                <img src="/upload/13122015071518566e0a160e0a4bner1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="/upload/banner.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
-                     data-x="center"
+                     data-x="left"
                      data-hoffset="0"
                      data-y="100"
                      data-speed="1500"
@@ -20,7 +28,8 @@
                      data-endeasing="Power1.easeIn"
                      data-endspeed="300">
                     <!--        The New <br>-->
-                    <strong>In Cốc Thủy Tinh</strong><br>
+                    <strong>HÀNG TRĂM MẪU PHA LÊ</strong><br>
+                    <p><b>CÚP - BIỂU TRƯNG - KỶ NIỆM CHƯƠNG</b></p>
                     <!--        is here-->
                 </div>
 
@@ -43,19 +52,21 @@
             <!-- SLIDE -->
             <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
                 <!-- MAIN IMAGE -->
-                <img src="/upload/13122015100132566e310c2b1d7bner3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="/upload/banner2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
-                     data-x="center"
+                     data-x="left"
                      data-hoffset="0"
                      data-y="100"
                      data-speed="1500"
                      data-start="500"
                      data-easing="Back.easeInOut"
                      data-endeasing="Power1.easeIn"
-                     data-endspeed="300">
+                     data-endspeed="300"
+                     >
                     <!--        The New <br>-->
-                    <strong>In Ảnh lên Cốc</strong><br>
+                    <strong>BIỂU TRƯNG <br> KỶ NIỆM CHƯƠNG ĐỒNG</strong>
+                    <p><b>CUP - BIỂU TRƯNG - KỶ NIỆM CHƯƠNG</b></p>
                     <!--        is here-->
                 </div>
 
@@ -78,10 +89,10 @@
             <!-- SLIDE -->
             <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
                 <!-- MAIN IMAGE -->
-                <img src="/upload/13122015101047566e3337a402abner2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img src="/upload/banner3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption revolution-ch1 sft start"
-                     data-x="center"
+                     data-x="left"
                      data-hoffset="0"
                      data-y="100"
                      data-speed="1500"
@@ -90,7 +101,8 @@
                      data-endeasing="Power1.easeIn"
                      data-endspeed="300">
                     <!--        The New <br>-->
-                    <strong>Hàng Trăm Mẫu Pha Lê</strong><br>
+                    <strong>XƯỞNG LÀM ẢNH GỖ</strong><br>
+                    <p><b>CÔNG NGHỆ IN ẢNH LAB HÀNG ĐẦU</b></p>
                     <!--        is here-->
                 </div>
 

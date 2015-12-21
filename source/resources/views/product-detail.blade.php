@@ -21,7 +21,7 @@
 
             <div class="col-md-6">
                 <div class="shop-product-heading">
-                    <h2>Biểu Trưng Đồng Loại 1</h2>
+                    <h2><?php $product['name']?></h2>
                     <ul class="list-inline shop-product-social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -31,21 +31,20 @@
                 </div><!--/end shop product social-->
 
                 <ul class="list-inline product-ratings margin-bottom-30">
+                    <?php for ($i = 1; $i <= $product['ratingPoints']; $i++){?>
                     <li><i class="rating-selected fa fa-star"></i></li>
-                    <li><i class="rating-selected fa fa-star"></i></li>
-                    <li><i class="rating-selected fa fa-star"></i></li>
+                    <?php }
+                    for ($i = 5; $i > $product['ratingPoints']; $i--){?>
                     <li><i class="rating fa fa-star"></i></li>
-                    <li><i class="rating fa fa-star"></i></li>
+                    <?php } ?>
 
                 </ul><!--/end shop product ratings-->
 
-                <p>Sản phẩm được làm trên công nghệ ăn mòn kim loại đỉnh cao.</p><br>
-
+                <p><strong><?php echo $product['descriptionTitle']?></strong></p><br>
+                <p><?php echo $product['descriptionContent']?></p><br>
                 <ul class="list-inline shop-product-prices margin-bottom-30">
-                    <li class="shop-red">0.000vnd</li>
+                    <li class="shop-red"><?php echo $product['price']?> vnd</li>
 
-                    <!--                    <li class="line-through">$70.00</li>-->
-                    <!--                    <li><small class="shop-bg-red time-day-left">4 days left</small></li>-->
                 </ul><!--/end shop product prices-->
 
 

@@ -18,370 +18,81 @@
 <!--=== Content Part ===-->
 <div class="content container">
     <div class="row">
-        <div class="col-md-3 filter-by-block md-margin-bottom-60">
-            <h1>Tìm kiếm theo</h1>
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                Đang khuyến mại
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <ul class="list-unstyled checkbox-list">
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" checked />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(23)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" checked />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(4)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(11)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(3)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(87)</a></small>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
 
-            <div class="panel-group" id="accordion-v2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
-                                Loại quà tặng
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <ul class="list-unstyled checkbox-list">
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" checked />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(23)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" checked />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(4)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(11)</a></small>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
-
-            <div class="panel-group" id="accordion-v3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
-                                *
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <ul class="list-unstyled checkbox-list">
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(23)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" checked />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(4)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(11)</a></small>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="checkbox">
-                                        <input type="checkbox" name="checkbox" />
-                                        <i></i>
-                                        *
-                                        <small><a href="#">(3)</a></small>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
-
-            <div class="panel-group" id="accordion-v4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
-                                Giá
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseFour" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <div class="slider-snap"></div>
-                            <p class="slider-snap-text">
-                                <span class="slider-snap-value-lower"></span>
-                                <span class="slider-snap-value-upper"></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
-
-            <div class="panel-group" id="accordion-v5">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
-                                Chất liệu
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseFive" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <ul class="list-inline product-color-list">
-                                <li><a href="#"><img src="/assets/img/colors/01.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/02.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/03.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/04.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/05.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/06.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/assets/img/colors/07.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
-
-            <div class="panel-group margin-bottom-30" id="accordion-v6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
-                                Yêu thích
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="collapseSix" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <div class="stars-ratings stars-ratings-label">
-                                <input type="radio" name="stars-rating" id="stars-rating-5">
-                                <label for="stars-rating-5"><i class="fa fa-star"></i></label>
-                                <input type="radio" name="stars-rating" id="stars-rating-4">
-                                <label for="stars-rating-4"><i class="fa fa-star"></i></label>
-                                <input type="radio" name="stars-rating" id="stars-rating-3">
-                                <label for="stars-rating-3"><i class="fa fa-star"></i></label>
-                                <input type="radio" name="stars-rating" id="stars-rating-2">
-                                <label for="stars-rating-2"><i class="fa fa-star"></i></label>
-                                <input type="radio" name="stars-rating" id="stars-rating-1">
-                                <label for="stars-rating-1"><i class="fa fa-star"></i></label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/end panel group-->
-            <button type="button" class="btn-u btn-brd btn-brd-hover btn-u-lg btn-u-sea-shop btn-block">Reset</button>
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-12">
             <div class="row margin-bottom-5">
                 <div class="col-sm-4 result-category">
                     <h2>Cốc Sứ </h2>
-                    <!--        <small class="shop-bg-red badge-results">45 Results</small>-->
                 </div>
-                <div class="col-sm-8 hidden">
-                    <ul class="list-inline clear-both">
-                        <li class="grid-list-icons">
-                            <a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>
-                            <a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>
-                        </li>
-                        <li class="sort-list-btn">
-                            <h3>Sắp xếp theo :</h3>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                    Popularity <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">All</a></li>
-                                    <li><a href="#">Best Sales</a></li>
-                                    <li><a href="#">Top Last Week Sales</a></li>
-                                    <li><a href="#">New Arrived</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="sort-list-btn">
-                            <h3>Show :</h3>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                    20 <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">All</a></li>
-                                    <li><a href="#">10</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li><a href="#">3</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div></div><!--/end result category-->
+                {{--<div class="col-sm-8 hidden">--}}
+                    {{--<ul class="list-inline clear-both">--}}
+                        {{--<li class="grid-list-icons">--}}
+                            {{--<a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>--}}
+                            {{--<a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>--}}
+                        {{--</li>--}}
+                        {{--<li class="sort-list-btn">--}}
+                            {{--<h3>Sắp xếp theo :</h3>--}}
+                            {{--<div class="btn-group">--}}
+                                {{--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">--}}
+                                    {{--Popularity <span class="caret"></span>--}}
+                                {{--</button>--}}
+                                {{--<ul class="dropdown-menu" role="menu">--}}
+                                    {{--<li><a href="#">All</a></li>--}}
+                                    {{--<li><a href="#">Best Sales</a></li>--}}
+                                    {{--<li><a href="#">Top Last Week Sales</a></li>--}}
+                                    {{--<li><a href="#">New Arrived</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                        {{--<li class="sort-list-btn">--}}
+                            {{--<h3>Show :</h3>--}}
+                            {{--<div class="btn-group">--}}
+                                {{--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">--}}
+                                    {{--20 <span class="caret"></span>--}}
+                                {{--</button>--}}
+                                {{--<ul class="dropdown-menu" role="menu">--}}
+                                    {{--<li><a href="#">All</a></li>--}}
+                                    {{--<li><a href="#">10</a></li>--}}
+                                    {{--<li><a href="#">5</a></li>--}}
+                                    {{--<li><a href="#">3</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</div></div><!--/end result category-->--}}
 
             <div class="filter-results">
                 <div class="row illustration-v2 margin-bottom-30">
+                <?php foreach ($productList as $pKey => $product){  ?>
                     <div class="col-md-4">
                         <div class="product-img product-img-brd">
-                            <a href="#"><img class="full-width img-responsive" src="/upload/14122015125138566e58ea9cde4c-c-s-tr-ng-1.jpg" alt=""></a>
+                            <a href="#"><img class="full-width img-responsive" src="<?php echo $product['image1']?>" alt=""></a>
                             <a class="product-review" href="/chi-tiet-san-pham/coc-su-1">Xem chi tiết</a>
-                            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
+
                             <div class="shop-rgba-dark-green rgba-banner">Hot</div>
                         </div>
                         <div class="product-description product-description-brd margin-bottom-30">
                             <div class="overflow-h margin-bottom-5">
                                 <div class="pull-left">
-                                    <h4 class="title-price"><a href="/products/view">Cốc sứ 1</a></h4>
-                                    <!--                    <span class="gender text-uppercase">Giá</span>-->
-                                    <!--                    <span class="gender">Giá gốc</span>-->
+                                    <h4 class="title-price"><a href="/products/view"><?php echo $product['name']?></a></h4>
+
                                 </div>
                                 <div class="product-price">
-                                    <span class="title-price">100.000 vnđ</span>
-                                    <!--                    <span class="title-price line-through">$95.00</span>-->
+                                    <span class="title-price"><?echo $product['price']?></span>
                                 </div>
                             </div>
                             <ul class="list-inline product-ratings">
+                                <?php for ($i = 1; $i <= $product['ratingPoints']; $i++){?>
                                 <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
+                                <?php }
+                                    for ($i = 5; $i > $product['ratingPoints']; $i--){?>
                                 <li><i class="rating fa fa-star"></i></li>
-                                <li><i class="rating fa fa-star"></i></li>
+                                <?php } ?>
                                 <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="product-img product-img-brd">
-                            <a href="#"><img class="full-width img-responsive" src="/upload/181220150507265673dade092561483-Nhung.jpg" alt=""></a>
-                            <a class="product-review" href="/chi-tiet-san-pham/san-pham-test">Xem chi tiết</a>
-                            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
-                            <div class="shop-rgba-dark-green rgba-banner">Hot</div>
-                        </div>
-                        <div class="product-description product-description-brd margin-bottom-30">
-                            <div class="overflow-h margin-bottom-5">
-                                <div class="pull-left">
-                                    <h4 class="title-price"><a href="/products/view">san pham test</a></h4>
-                                    <!--                    <span class="gender text-uppercase">Giá</span>-->
-                                    <!--                    <span class="gender">Giá gốc</span>-->
-                                </div>
-                                <div class="product-price">
-                                    <span class="title-price">100.000 vnđ</span>
-                                    <!--                    <span class="title-price line-through">$95.00</span>-->
-                                </div>
-                            </div>
-                            <ul class="list-inline product-ratings">
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating fa fa-star"></i></li>
-                                <li><i class="rating fa fa-star"></i></li>
-                                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="product-img product-img-brd">
-                            <a href="#"><img class="full-width img-responsive" src="/upload/181220150512595673dc2b2f0a71483-Nhung.jpg" alt=""></a>
-                            <a class="product-review" href="/chi-tiet-san-pham/ten-san-pham">Xem chi tiết</a>
-                            <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
-                        </div>
-                        <div class="product-description product-description-brd margin-bottom-30">
-                            <div class="overflow-h margin-bottom-5">
-                                <div class="pull-left">
-                                    <h4 class="title-price"><a href="/products/view">Tên sản phẩm!</a></h4>
-                                    <!--                    <span class="gender text-uppercase">Giá</span>-->
-                                    <!--                    <span class="gender">Giá gốc</span>-->
-                                </div>
-                                <div class="product-price">
-                                    <span class="title-price">100.000 vnđ</span>
-                                    <!--                    <span class="title-price line-through">$95.00</span>-->
-                                </div>
-                            </div>
-                            <ul class="list-inline product-ratings">
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <li><i class="rating fa fa-star"></i></li>
-                                <li><i class="rating fa fa-star"></i></li>
-                                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <?php }?>
                 </div>
 
             </div><!--/end filter resilts-->
@@ -403,8 +114,8 @@
 <!--=== Shop Suvbscribe ===-->
 <div class="shop-subscribe">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 md-margin-bottom-20">
+        <div class="">
+            <div class="col-md-7 md-margin-bottom-20">
                 <h2>Đăng ký nhận tin khuyến mại <strong>mới nhất</strong></h2>
             </div>
             <div class="col-md-4">

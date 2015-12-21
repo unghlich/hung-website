@@ -71,20 +71,7 @@
                                 <div class="mega-menu-content">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-md-3 col-sm-12 col-xs-12 md-margin-bottom-30">
-                                                <h3 class="mega-menu-heading">Pellentes que nec diam lectus</h3>
-                                                <p>Proin pulvinar libero quis auctor pharet ra. Aenean fermentum met us orci, sedf eugiat augue pulvina r vitae. Nulla dolor nisl, molestie nec aliquam vitae, gravida sodals dolor...</p>
-                                                <button type="button" class="btn-u btn-u-dark">Read More</button>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4 md-margin-bottom-30">
-                                                <a href="#"><img class="product-offers img-responsive" src="/assets/img/blog/01.jpg" alt=""></a>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4 sm-margin-bottom-30">
-                                                <a href="#"><img class="product-offers img-responsive" src="/assets/img/blog/02.jpg" alt=""></a>
-                                            </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-4">
-                                                <a href="#"><img class="product-offers img-responsive" src="/assets/i`mg/blog/03.jpg" alt=""></a>
-                                            </div>
+
                                         </div><!--/end row-->
                                     </div><!--/end container-->
                                 </div><!--/end mega menu content-->

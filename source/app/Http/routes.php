@@ -11,12 +11,15 @@
 |
 */
 
+use SmartGift\Product\Product;
+
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/product', function () {
-    return view('product');
+Route::get('/product', function (Product $product) {
+
+    return view('product',['productList' => $product->all()]);
 });
-Route::get('/product/{id}', function ($id) {
-    return view('product-detail');
+Route::get('/product/{id}', function (Product $product, $id) {
+    return view('product-detail',['product'=> $product->all()[$id]]);
 });
