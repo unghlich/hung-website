@@ -7,7 +7,7 @@
         <span class="page-name">Product Filter Page</span>
         <h1>Maecenas <span class="shop-green">enim</span> sapien</h1>
         <ul class="breadcrumb-v4-in">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
             <li class="active">Product Filter Page</li>
         </ul>
@@ -31,22 +31,23 @@
                 <div class="row illustration-v2 margin-bottom-30">
                 @foreach ($productList as $pKey => $product)
                     <div class="col-md-4">
-                        <div class="product-img product-img-brd">
-                            <a href="#"><img class="full-width img-responsive" src="{{$product->thumbnai()}}" alt=""></a>
-                            <a class="product-review" href="/chi-tiet-san-pham/coc-su-1">Xem chi tiết</a>
-                        </div>
-                        <div class="product-description product-description-brd margin-bottom-30">
-                            <div class="overflow-h margin-bottom-5">
-                                <div class="pull-left">
-                                    <h4 class="title-price"><a href="/products/view">{{$product->name()}}</a></h4>
-
-                                </div>
-                                <div class="product-price">
-                                    <span class="title-price">{{$product->price()}}</span>
-                                </div>
+                        <a href="{{route('product-detail', ['id' => $product->identity(), 'slug' => $product->getSEOSlug()])}}" class="unstyled-link">
+                            <div class="product-img product-img-brd">
+                                <img class="full-width img-responsive" src="{{$product->thumbnail()}}" alt="">
                             </div>
-                            {!! $product->renderRateStars() !!}
-                        </div>
+                            <div class="product-description product-description-brd margin-bottom-30">
+                                <div class="overflow-h margin-bottom-5">
+                                    <div class="pull-left">
+                                        <h4 class="title-price">{{$product->name()}}</h4>
+
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="title-price"><small class="text-danger">{{$product->price()}}</small></span>
+                                    </div>
+                                </div>
+                                {!! $product->renderRateStars() !!}
+                            </div>
+                        </a>
                     </div>
                 @endforeach
                 </div>

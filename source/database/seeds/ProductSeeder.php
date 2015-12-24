@@ -69,11 +69,11 @@ Tư vấn thiết kế miễn phí."],
         {
             $product = new Product();
             $product->name = $bt[0];
-            $product->price = $bt[1];
-            $product->thumbnail = $bt[2];
-            $product->image1 = $bt[3];
-            $product->image2 = $bt[4];
-            $product->image3 = $bt[5];
+            $product->price = -1;
+            $product->thumbnail = '/upload/cate2/' .  $bt[2];
+            $product->image1 = $bt[3] ? '/upload/cate2/' . $bt[3] : '';
+            $product->image2 = $bt[4] ? '/upload/cate2/' . $bt[4] : '';
+            $product->image3 = $bt[5] ? '/upload/cate2/' . $bt[5] : '';
             $product->descriptionTitle = $bt[6];
             $product->descriptionContent = $bt[7]?:"";
             $product->categoryId = 2;
@@ -86,13 +86,13 @@ Tư vấn thiết kế miễn phí."],
         {
             $product = new Product();
             $product->name = $bt[0];
-            $product->price = $bt[1];
-            $product->thumbnail = $bt[2];
-            $product->image1 = $bt[3];
-            $product->image2 = $bt[4];
-            $product->image3 = $bt[5];
+            $product->price = -1;
+            $product->thumbnail = '/upload/cate1/' . $bt[2];
+            $product->image1 = $bt[3] ? '/upload/cate1/' . $bt[3] : '';
+            $product->image2 = $bt[4] ? '/upload/cate1/' . $bt[4] : '';
+            $product->image3 = $bt[5] ? '/upload/cate1/' . $bt[5] : '';
             $product->descriptionTitle = $bt[6];
-            $product->descriptionContent = $bt[7]?:"";
+            $product->descriptionContent = $bt[7] ?: "";
             $product->categoryId = 1;
             $product->rateTimes = 1;
             $product->ratePoints = 5;

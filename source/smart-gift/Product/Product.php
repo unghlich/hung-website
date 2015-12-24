@@ -6,11 +6,12 @@ namespace SmartGift\Product;
 use Illuminate\Database\Eloquent\Model;
 use SmartGift\Contracts\Product as ProductInterface;
 use SmartGift\Contracts\ProductRepository;
+use SmartGift\Contracts\SEOSlug;
 
 /**
  * Class Product
  * @property string name
- * @property float price
+ * @property Price price
  * @package SmartGift\Product
  * @property string thumbnail
  * @property  string image1
@@ -21,9 +22,20 @@ use SmartGift\Contracts\ProductRepository;
  * @property  string categoryId
  * @property int rateTimes
  * @property int ratePoints
+ * @property mixed id
  */
-class Product extends Model implements ProductInterface, ProductRepository
+class Product extends Model implements ProductInterface, ProductRepository, SEOSlug
 {
+
+    public function getSEOSlug()
+    {
+        return str_slug($this->name());
+    }
+
+    public function identity()
+    {
+        return $this->id;
+    }
 
     public function name()
     {
@@ -32,27 +44,34 @@ class Product extends Model implements ProductInterface, ProductRepository
 
     public function price()
     {
-        return $this->price;
+        return new Price($this->price);
     }
 
-    public function thumbnai()
+    public function thumbnail()
     {
         return $this->thumbnail;
     }
 
-    public function image1()
+    public function images()
     {
-        return $this->image1;
-    }
+        $images = [];
 
-    public function image2()
-    {
-        return $this->image2;
-    }
+        if ($this->image1)
+        {
+            array_push($images, $this->image1);
+        }
 
-    public function image3()
-    {
-        return $this->image3;
+        if ($this->image2)
+        {
+            array_push($images, $this->image2);
+        }
+
+        if ($this->image3)
+        {
+            array_push($images, $this->image3);
+        }
+
+        return $images;
     }
 
     public function descriptionTitle()
@@ -85,7 +104,7 @@ class Product extends Model implements ProductInterface, ProductRepository
      */
     public function findById($productId)
     {
-        // TODO: Implement findById() method.
+        return $this->find($productId);
     }
 
     public function getAvgRate()
@@ -96,5 +115,14 @@ class Product extends Model implements ProductInterface, ProductRepository
     public function renderRateStars()
     {
         return \View::make('partial.star', ['point' => $this->getAvgRate()]);
+    }
+
+    /**
+     * @param $id
+     * @return \SmartGift\Contracts\Product[]|void
+     */
+    public function findRelate($id, $cateId)
+    {
+        return $this->where('categoryId', $cateId)->where('id','<>',$id)->get();
     }
 }

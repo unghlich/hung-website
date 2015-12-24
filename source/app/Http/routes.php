@@ -22,6 +22,7 @@ Route::get('/', function (CategoryRepository $category)
 
 Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRepository $product, $cateId)
 {
+//    dd($product->getByCategoryId($cateId));
     return view('product',[
         'productList' => $product->getByCategoryId($cateId)->paginate(15),
         'category' => $category->getById($cateId)
@@ -30,5 +31,10 @@ Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRe
 
 Route::get('/san-pham/{id}/{slug}', function (Product $product, $id)
 {
-    return view('product-detail',['product'=> $product->all()[$id]]);
-});
+    $productDetail = $product->findById($id);
+    return view('product-detail',
+        [
+            'product'=> $productDetail,
+            'relatedProduct'=> $product->findRelate($id,$productDetail->categoryId())
+        ]);
+})->name('product-detail');

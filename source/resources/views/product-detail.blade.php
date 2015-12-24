@@ -11,8 +11,9 @@
                     <!-- Master Slider -->
                     <div class="master-slider ms-skin-default" id="masterslider">
                         <div class="ms-slide">
-                            <img class="ms-brd" src="/assets/img/blank.gif" data-src="/assets/img/blog/28.jpg" alt="lorem ipsum dolor sit">
-                            <img class="ms-thumb img-responsive" src="/upload/14122015083654566f6eb6b5bb517.jpg" alt="thumb">
+                            @foreach($product->images() as $image)
+                                <img class="ms-thumb img-responsive" src="{{$image}}" alt="thumb">
+                            @endforeach
                         </div>
                     </div>
                     <!-- End Master Slider -->
@@ -21,29 +22,21 @@
 
             <div class="col-md-6">
                 <div class="shop-product-heading">
-                    <h2><?php $product['name']?></h2>
+                    <h2>{{$product->name}}</h2>
                     <ul class="list-inline shop-product-social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     </ul>
                 </div><!--/end shop product social-->
 
                 <ul class="list-inline product-ratings margin-bottom-30">
-                    <?php for ($i = 1; $i <= $product['ratingPoints']; $i++){?>
-                    <li><i class="rating-selected fa fa-star"></i></li>
-                    <?php }
-                    for ($i = 5; $i > $product['ratingPoints']; $i--){?>
-                    <li><i class="rating fa fa-star"></i></li>
-                    <?php } ?>
+
 
                 </ul><!--/end shop product ratings-->
 
-                <p><strong><?php echo $product['descriptionTitle']?></strong></p><br>
-                <p><?php echo $product['descriptionContent']?></p><br>
+                <p><strong>{{$product->descriptionTitle()}}</strong></p><br>
+                <p>{{$product->descriptionContent()}}</p><br>
                 <ul class="list-inline shop-product-prices margin-bottom-30">
-                    <li class="shop-red"><?php echo $product['price']?> vnd</li>
+                    <li class="shop-red">Giá: {{$product->price()}}</li>
 
                 </ul><!--/end shop product prices-->
 
@@ -66,22 +59,23 @@
         </div>
 
         <ul class="list-inline owl-slider-v4">
+            @foreach($relatedProduct as $productRelate)
+
             <li class="item">
-                <a href="#"><img class="img-responsive" src="/upload/14122015083654566f6eb6b5aed18.jpg" alt=""></a>
+                <a href="{{route('product-detail', ['id' => $productRelate->identity(), 'slug' => $productRelate->getSEOSlug()])}}" class="unstyled-link">
+                    <img class="img-responsive" src="{{$productRelate->thumbnail()}}" alt="">
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
-                        <h4 class="title-price"><a href="#">Biểu Trưng Đồng Loại 1</a></h4>
-                        <span class="title-price">0.000vnd</span>
+                        <h4 class="title-price">
+                                {{$productRelate->name()}}
+                        </h4>
+                        <span class="title-price">{{$productRelate->price()}}</span>
                     </div>
-                    <ul class="list-inline product-ratings">
-                        <li><i class="rating-selected fa fa-star"></i></li>
-                        <li><i class="rating-selected fa fa-star"></i></li>
-                        <li><i class="rating-selected fa fa-star"></i></li>
-                        <li><i class="rating fa fa-star"></i></li>
-                        <li><i class="rating fa fa-star"></i></li>
-                    </ul>
+                    {!! $product->renderRateStars() !!}
                 </div>
+                </a>
             </li>
+            @endforeach
         </ul>
     </div>
 </div>

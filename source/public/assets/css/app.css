@@ -3599,3 +3599,7 @@ img.img-center,
 .thumb-product-link:hover {
   text-decoration: none;
 }
+
+a.unstyled-link, a.unstyled-link:hover {
+  text-decoration: none;
+}
