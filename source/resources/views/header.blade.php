@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/home/index">
+                <a class="navbar-brand" href="{{route('home')}}">
                     <img id="logo-header" style="height: 50px" src="/assets/img/logochuan2.gif" alt="Logo">
                 </a>
             </div>
@@ -41,10 +41,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-responsive-collapse">
                 <!-- Nav Menu -->
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav" style="float: right;">
                     <!-- Pages -->
                     <li class="dropdown">
-                        <a href="/" class="dropdown-toggle" data-hover="dropdown" >
+                        <a href="{{route('home')}}" class="dropdown-toggle" data-hover="dropdown" >
                             Trang chủ
                         </a>
                     </li>
@@ -52,11 +52,18 @@
 
                     <!-- Promotion -->
                     <li class="dropdown">
-                        <a href="/products/index" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
                             Sản phẩm
                         </a>
                         <ul class="dropdown-menu">
-                            {{--html todo--}}
+                            @foreach($categories as $category)
+                            <li>
+                                <a
+                                    href="{{route(
+                                        'category-detail',
+                                        [ 'cateId' => $category->id, 'slug' => $category->getSEOSlug() ])}}"
+                                >{{$category->name()}}</a></li>
+                            @endforeach
                         </ul>
                     </li>
                     <!-- End Promotion -->

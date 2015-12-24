@@ -21,91 +21,47 @@
 
         <div class="col-md-12">
             <div class="row margin-bottom-5">
-                <div class="col-sm-4 result-category">
-                    <h2>Cốc Sứ </h2>
+                <div class="result-category">
+                    <h2>{{$category->name()}}</h2>
+                    <div class="pull-right">{!! $productList->render() !!}</div>
                 </div>
-                {{--<div class="col-sm-8 hidden">--}}
-                    {{--<ul class="list-inline clear-both">--}}
-                        {{--<li class="grid-list-icons">--}}
-                            {{--<a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>--}}
-                            {{--<a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>--}}
-                        {{--</li>--}}
-                        {{--<li class="sort-list-btn">--}}
-                            {{--<h3>Sắp xếp theo :</h3>--}}
-                            {{--<div class="btn-group">--}}
-                                {{--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">--}}
-                                    {{--Popularity <span class="caret"></span>--}}
-                                {{--</button>--}}
-                                {{--<ul class="dropdown-menu" role="menu">--}}
-                                    {{--<li><a href="#">All</a></li>--}}
-                                    {{--<li><a href="#">Best Sales</a></li>--}}
-                                    {{--<li><a href="#">Top Last Week Sales</a></li>--}}
-                                    {{--<li><a href="#">New Arrived</a></li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                        {{--</li>--}}
-                        {{--<li class="sort-list-btn">--}}
-                            {{--<h3>Show :</h3>--}}
-                            {{--<div class="btn-group">--}}
-                                {{--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">--}}
-                                    {{--20 <span class="caret"></span>--}}
-                                {{--</button>--}}
-                                {{--<ul class="dropdown-menu" role="menu">--}}
-                                    {{--<li><a href="#">All</a></li>--}}
-                                    {{--<li><a href="#">10</a></li>--}}
-                                    {{--<li><a href="#">5</a></li>--}}
-                                    {{--<li><a href="#">3</a></li>--}}
-                                {{--</ul>--}}
-                            {{--</div>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
-                {{--</div></div><!--/end result category-->--}}
-
+            </div>
+            @if ($productList->count())
             <div class="filter-results">
                 <div class="row illustration-v2 margin-bottom-30">
-                <?php foreach ($productList as $pKey => $product){  ?>
+                @foreach ($productList as $pKey => $product)
                     <div class="col-md-4">
                         <div class="product-img product-img-brd">
-                            <a href="#"><img class="full-width img-responsive" src="<?php echo $product['image1']?>" alt=""></a>
+                            <a href="#"><img class="full-width img-responsive" src="{{$product->thumbnai()}}" alt=""></a>
                             <a class="product-review" href="/chi-tiet-san-pham/coc-su-1">Xem chi tiết</a>
-
-                            <div class="shop-rgba-dark-green rgba-banner">Hot</div>
                         </div>
                         <div class="product-description product-description-brd margin-bottom-30">
                             <div class="overflow-h margin-bottom-5">
                                 <div class="pull-left">
-                                    <h4 class="title-price"><a href="/products/view"><?php echo $product['name']?></a></h4>
+                                    <h4 class="title-price"><a href="/products/view">{{$product->name()}}</a></h4>
 
                                 </div>
                                 <div class="product-price">
-                                    <span class="title-price"><?echo $product['price']?></span>
+                                    <span class="title-price">{{$product->price()}}</span>
                                 </div>
                             </div>
-                            <ul class="list-inline product-ratings">
-                                <?php for ($i = 1; $i <= $product['ratingPoints']; $i++){?>
-                                <li><i class="rating-selected fa fa-star"></i></li>
-                                <?php }
-                                    for ($i = 5; $i > $product['ratingPoints']; $i--){?>
-                                <li><i class="rating fa fa-star"></i></li>
-                                <?php } ?>
-                                <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
-                            </ul>
+                            {!! $product->renderRateStars() !!}
                         </div>
                     </div>
-                <?php }?>
+                @endforeach
                 </div>
 
             </div><!--/end filter resilts-->
 
             <div class="text-center">
-                <ul class="pagination pagination-v2">
-                    <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                </ul>
+                {!! $productList->render() !!}
             </div><!--/end pagination-->
+            @else
+                <div class="row" style="min-height: 150px">
+                    <br/><br/>
+                    <i class="text-muted">Chưa có sản phẩm nào</i>
+                </div>
+            @endif
         </div>
     </div><!--/end row-->
 </div><!--/end container-->
