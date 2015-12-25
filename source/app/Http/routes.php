@@ -22,16 +22,28 @@ Route::get('/', function (CategoryRepository $category)
 
 Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRepository $product, $cateId)
 {
-//    dd($product->getByCategoryId($cateId));
+    $currentCategory = $category->getById($cateId);
+
+    if ( ! $currentCategory)
+    {
+        return redirect(route('index')));
+    }
+
     return view('product',[
         'productList' => $product->getByCategoryId($cateId)->paginate(15),
-        'category' => $category->getById($cateId)
+        'category' => $currentCategory
     ]);
 })->name('category-detail');
 
 Route::get('/san-pham/{id}/{slug}', function (Product $product, $id)
 {
     $productDetail = $product->findById($id);
+
+    if ( ! $productDetail)
+    {
+        return redirect(route('index'));
+    }
+
     return view('product-detail',
         [
             'product'=> $productDetail,
