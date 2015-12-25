@@ -82,7 +82,11 @@
 	color: #fff;
 	font-size: 40px;
 }
-
+@media (min-width: 992px){
+	.quick-fix-partner {
+		margin-top: -20px;
+	}
+}
 @media (max-width: 991px) {
 	.footer-v4 .copyright {
 		text-align: center;
