@@ -26,7 +26,7 @@ Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRe
 
     if ( ! $currentCategory)
     {
-        return redirect(route('index')));
+        return redirect(route('index'));
     }
 
     return view('product',[
