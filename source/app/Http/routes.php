@@ -26,7 +26,7 @@ Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRe
 
     if ( ! $currentCategory)
     {
-        return redirect(route('index'));
+        return redirect(route('home'));
     }
 
     return view('product',[
@@ -41,7 +41,7 @@ Route::get('/san-pham/{id}/{slug}', function (Product $product, $id)
 
     if ( ! $productDetail)
     {
-        return redirect(route('index'));
+        return redirect(route('home'));
     }
 
     return view('product-detail',
