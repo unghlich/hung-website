@@ -33,7 +33,7 @@
                     <div class="col-md-4">
                         <a href="{{route('product-detail', ['id' => $product->identity(), 'slug' => $product->getSEOSlug()])}}" class="unstyled-link">
                             <div class="product-img product-img-brd">
-                                <img class="full-width img-responsive" src="{{$product->thumbnail()}}" alt="">
+                                <img class="full-width img-responsive" src="{{$product->thumbnail() ? $product->thumbnail() : '/upload/no-image.jpg'}}" alt="">
                             </div>
                             <div class="product-description product-description-brd margin-bottom-30">
                                 <div class="overflow-h margin-bottom-5">
@@ -42,7 +42,13 @@
 
                                     </div>
                                     <div class="product-price">
-                                        <span class="title-price"><small class="text-danger">{{$product->price()}}</small></span>
+                                        <span class="title-price">
+                                            <small class="text-danger">{{$product->price()}}
+                                            @if($product->price() != 'Liên hệ')
+                                                <sup>đ</sup>
+                                            @endif
+                                            </small>
+                                        </span>
                                     </div>
                                 </div>
                                 {!! $product->renderRateStars() !!}

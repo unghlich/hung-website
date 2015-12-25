@@ -20,7 +20,7 @@ class Price
         }
         else
         {
-            return number_format($this->value * 1000, 0, '.', ' ') . '<sup>đ</sup>';
+            return number_format($this->value, 0, '.', ' ');
         }
     }
 }

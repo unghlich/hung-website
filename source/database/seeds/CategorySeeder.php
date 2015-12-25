@@ -9,7 +9,7 @@ class CategorySeeder extends Seeder
         ['image'=> 'Biểu Trưng Pha Lê','description' => 'Biểu Trưng Pha Lê'],
         ['image'=> 'Biểu-Trưng-đồng','description' => 'Biểu-Trưng-đồng'],
         ['image'=> 'Cúp-Pha-Lê','description' => 'Cúp-Pha-Lê'],
-        ['image'=> 'Cốc','description' => 'Cốc'],
+        ['image'=> 'Cốc Minh Long','description' => 'Cốc Minh Long'],
         ['image'=> 'Cốc-In-Ảnh','description' => 'Cốc-In-Ảnh'],
         ['image'=> 'Cốc-Thủy-Tinh','description' => 'Cốc-Thuỷ-Tinh'],
         ['image'=> 'In-Đĩa','description' => 'In-Đĩa'],

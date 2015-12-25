@@ -36,7 +36,11 @@
                 <p><strong>{{$product->descriptionTitle()}}</strong></p><br>
                 <p>{{$product->descriptionContent()}}</p><br>
                 <ul class="list-inline shop-product-prices margin-bottom-30">
-                    <li class="shop-red">Giá: {{$product->price()}}</li>
+                    <li class="shop-red">Giá: {{$product->price()}}
+                        @if($product->price() != 'Liên hệ')
+                            <sup>đ</sup>
+                        @endif
+                    </li>
 
                 </ul><!--/end shop product prices-->
 
@@ -63,13 +67,17 @@
 
             <li class="item">
                 <a href="{{route('product-detail', ['id' => $productRelate->identity(), 'slug' => $productRelate->getSEOSlug()])}}" class="unstyled-link">
-                    <img class="img-responsive" src="{{$productRelate->thumbnail()}}" alt="">
+                    <img class="img-responsive" src="{{$productRelate->thumbnail() ? $productRelate->thumbnail() : '/upload/no-image.jpg'}}" alt="">
                 <div class="product-description-v2">
                     <div class="margin-bottom-5">
                         <h4 class="title-price">
                                 {{$productRelate->name()}}
-                        </h4>
-                        <span class="title-price">{{$productRelate->price()}}</span>
+                       </h4>
+                        <span class="title-price">{{$productRelate->price()}}
+                            @if($product->price() != 'Liên hệ')
+                                <sup>đ</sup>
+                            @endif
+                        </span>
                     </div>
                     {!! $product->renderRateStars() !!}
                 </div>
