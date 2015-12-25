@@ -24,7 +24,7 @@
 
                 <!-- partner -->
                  <div class="col-md-8"> 
-
+                    <h1 class="text-center" style="color: white; margin-top: -5%;">ĐỐI TÁC</h1>
                     @for($i = 1; $i<10; $i++) 
                         @if($i == 3)
                             <div class="col-md-4 col-sm-6 col-xs-12  quick-fix-partner"> 
