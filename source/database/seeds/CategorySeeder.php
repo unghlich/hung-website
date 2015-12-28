@@ -34,7 +34,7 @@ class CategorySeeder extends Seeder
         {
             $category = new Category();
             $category->name         = $this->resolveName($row['name']);
-            $category->image        = $this->resolveImageLink($row['name']);
+            $category->image        = '/upload/cate'.$row['id'].'/1.jpg';
             $category->description  = $this->resolveName($row['name']);
 
             $category->save();
