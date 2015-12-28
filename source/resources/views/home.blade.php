@@ -45,7 +45,8 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="http://quatangthongminh.net/" class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
+                    <a href="{{route('category-detail', [ 'cateId' => 9, 'slug' => 'in-cup-pha-le'])}}"
+                       class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
                 </div>
             </li>
             <!-- END SLIDE -->
@@ -82,7 +83,7 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="http://quatangthongminh.net/san-pham/coc-thuy-tinh" class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
+                    <a href="{{route('category-detail', [ 'cateId' => 2, 'slug' => 'n-bieu-trung-dong'])}}" class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
                 </div>
             </li>
             <!-- END SLIDE -->
@@ -118,7 +119,8 @@
                      data-endeasing="Power1.easeIn"
                      data-captionhidden="off"
                      style="z-index: 6">
-                    <a href="http://quatangthongminh.net/san-pham/bieu-trung-pha-le" class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
+                    <a href="{{route('category-detail', [ 'cateId' => 1, 'slug' => 'in-anh-go'])}}"
+                       class="btn-u btn-brd btn-brd-hover btn-u-light">Xem ngay</a>
                 </div>
             </li>
             <!-- END SLIDE -->
