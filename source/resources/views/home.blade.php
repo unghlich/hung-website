@@ -137,8 +137,8 @@
                 <div class="thumb-product">
                     <img class="thumb-product-img" src="{{$category->image}}" alt="">
                     <div class="thumb-product-in">
-                        <h4>{{$category->name}}</h4>
-                        <span class="thumb-product-type">{{$category->description}}</span>
+                        <h2>{{$category->name}}</h2>
+                        {{--<span class="thumb-product-type">{{$category->description}}</span>--}}
                     </div>
 
                 </div>

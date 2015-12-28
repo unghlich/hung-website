@@ -6,24 +6,25 @@ use SmartGift\Product\Category;
 class CategorySeeder extends Seeder
 {
     protected $rawData = [
-        ['name' => 'Ảnh gỗ', 'id' => '1'],
-        ['name' => 'Biểu trưng đồng', 'id' => '2'],
-        ['name' => 'Biểu Trưng Pha Lê', 'id' => '3'],
-        ['name' => 'Cốc Lumiarc', 'id' => '4'],
-        ['name' => 'Cốc Minh Long', 'id' => '5'],
-        ['name' => 'Cốc ocean', 'id' => '6'],
-        ['name' => 'Cốc trắng thường', 'id' => '7'],
-        ['name' => 'Cốc Union', 'id' => '8'],
-        ['name' => 'Cup Pha Lê', 'id' => '9'],
-        ['name' => 'đá in ảnh', 'id' => '10'],
-        ['name' => 'Decal', 'id' => '11'],
-        ['name' => 'Đĩa', 'id' => '12'],
+        ['name' => 'In Ảnh Gỗ', 'id' => '1'],
+        ['name' => 'In Biểu Trưng Đồng', 'id' => '2'],
+        ['name' => 'In Biểu Trưng Pha Lê',  'id' => '3'],
+        ['name' => 'In Cốc Thuỷ Tinh', 'id' => '4'],
+//        ['name' => 'Cốc Lumiarc', 'id' => '4'],
+        ['name' => 'In Cốc Minh Long', 'id' => '5'],
+//        ['name' => 'Cốc Ocean', 'id' => '6'],
+        ['name' => 'In Cốc Trắng Thường', 'id' => '7'],
+//        ['name' => 'Cốc Union', 'id' => '8'],
+        ['name' => 'In Cup Pha Lê', 'id' => '9'],
+        ['name' => 'In Đá In Ảnh', 'id' => '10'],
+        ['name' => 'In Decal-Backlit-Standee', 'id' => '11'],
+        ['name' => 'In Đĩa Minh Long', 'id' => '12'],
         ['name' => 'In Hóa Đơn', 'id' => '13'],
         ['name' => 'In Túi', 'id' => '14'],
-        ['name' => 'móc khóa', 'id' => '15'],
-        ['name' => 'pha lê 3d', 'id' => '16'],
-        ['name' => 'pha lê in ảnh', 'id' => '17'],
-        ['name' => 'thẻ tên tấm đồng, nhôm', 'id' => '18'],
+        ['name' => 'In Móc Khóa', 'id' => '15'],
+        ['name' => 'In Pha Lê 3d', 'id' => '16'],
+        ['name' => 'Pha Lê In ảnh', 'id' => '17'],
+        ['name' => 'In Thẻ Tên Tấm Đồng, Nhôm', 'id' => '18'],
     ];
 
     public function run()
@@ -33,7 +34,8 @@ class CategorySeeder extends Seeder
         foreach ($this->rawData as $row)
         {
             $category = new Category();
-            $category->name         = $this->resolveName($row['name']);
+            $category->id           = $row['id'];
+            $category->name         = $row['name'];
             $category->image        = $this->resolveImageLink($row['id']);
             $category->description  = $this->resolveName($row['name']);
 
@@ -48,6 +50,6 @@ class CategorySeeder extends Seeder
 
     public function resolveImageLink($id)
     {
-        return  '/upload/cate'.$id.'/1.jpg';
+        return  '/upload/productCategories/'.$id.'.jpg';
     }
 }

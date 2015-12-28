@@ -1361,7 +1361,7 @@ Tư vấn thiết kế miễn phí."],
                 $product->image3 = $pd[5] ? '/upload/cate'.$kp.'/' . $pd[5] : '';
                 $product->descriptionTitle = $pd[6] ? : "";
                 $product->descriptionContent = $pd[7] ? : "";
-                $product->categoryId = $kp;
+                $product->categoryId = ($kp == 6 || $kp == 8) ? 4 : $kp;
                 $product->rateTimes = 1;
                 $product->ratePoints = 5;
                 $product->save();

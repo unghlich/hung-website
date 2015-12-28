@@ -18,15 +18,15 @@
                 <div class="row illustration-v2 margin-bottom-30">
                 @foreach ($productList as $pKey => $product)
                     <div class="col-md-4">
-                        <a href="{{route('product-detail', ['id' => $product->identity(), 'slug' => $product->getSEOSlug()])}}" class="unstyled-link">
+                        <a href="{{route('product-detail', ['id' => $product->identity(), 'slug' => $product->getSEOSlug()])}}"
+                           class="unstyled-link" data-toggle="tooltip" title="{{$product->name()}}">
                             <div class="product-img product-img-brd">
                                 <img class="full-width img-responsive" src="{{$product->thumbnail() ? $product->thumbnail() : '/upload/no-image.jpg'}}" alt="">
                             </div>
                             <div class="product-description product-description-brd margin-bottom-30">
                                 <div class="overflow-h margin-bottom-5">
                                     <div class="pull-left">
-                                        <h4 class="title-price">{{$product->name()}}</h4>
-
+                                        <h4 class="title-price">{{str_limit($product->name(), 27)}}</h4>
                                     </div>
                                     <div class="product-price">
                                         <span class="title-price">

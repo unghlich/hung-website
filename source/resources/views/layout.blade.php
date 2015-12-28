@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="L51uEmRKQMX9YAit-d7_jslkfdrJlQooCKEb2YmbqbU" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.gif">
+    <link rel="shortcut icon" href="/favicon.icon">
 
     <!-- Web Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
