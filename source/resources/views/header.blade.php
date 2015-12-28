@@ -90,7 +90,7 @@
 
                     <!-- Clothes -->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000">
+                        <a href="{{route('contact')}}" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
                             Liên hệ
                         </a>
                     </li>

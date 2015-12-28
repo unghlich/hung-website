@@ -20,6 +20,10 @@ Route::get('/', function (CategoryRepository $category)
     return view('home')->with('categories', $category->getAll());
 })->name('home');
 
+Route::get('/contact', function(){
+    return view('contact');
+})->name('contact');
+
 Route::get('/{cateId}/{slug}', function (CategoryRepository $category, ProductRepository $product, $cateId)
 {
     $currentCategory = $category->getById($cateId);

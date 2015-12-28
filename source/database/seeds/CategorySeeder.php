@@ -7,7 +7,7 @@ class CategorySeeder extends Seeder
 {
     protected $rawData = [
         ['name' => 'In Ảnh Gỗ', 'id' => '1'],
-        ['name' => 'In Biểu Trưng Đồng', 'id' => '2'],
+        ['name' => 'Mẫu Biểu Trưng Đồng', 'id' => '2'],
         ['name' => 'In Biểu Trưng Pha Lê',  'id' => '3'],
         ['name' => 'In Cốc Thuỷ Tinh', 'id' => '4'],
 //        ['name' => 'Cốc Lumiarc', 'id' => '4'],
@@ -16,14 +16,14 @@ class CategorySeeder extends Seeder
         ['name' => 'In Cốc Trắng Thường', 'id' => '7'],
 //        ['name' => 'Cốc Union', 'id' => '8'],
         ['name' => 'In Cup Pha Lê', 'id' => '9'],
-        ['name' => 'In Đá In Ảnh', 'id' => '10'],
+        ['name' => 'In Ảnh Lên Đá', 'id' => '10'],
         ['name' => 'In Decal-Backlit-Standee', 'id' => '11'],
         ['name' => 'In Đĩa Minh Long', 'id' => '12'],
         ['name' => 'In Hóa Đơn', 'id' => '13'],
         ['name' => 'In Túi', 'id' => '14'],
         ['name' => 'In Móc Khóa', 'id' => '15'],
-        ['name' => 'In Pha Lê 3d', 'id' => '16'],
-        ['name' => 'Pha Lê In ảnh', 'id' => '17'],
+        ['name' => 'In 3D Pha Lê', 'id' => '16'],
+        ['name' => 'In Ảnh Pha Lê', 'id' => '17'],
         ['name' => 'In Thẻ Tên Tấm Đồng, Nhôm', 'id' => '18'],
     ];
 
