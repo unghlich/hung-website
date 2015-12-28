@@ -589,28 +589,44 @@ class ProductSeeder extends Seeder
 			Một bộ có 6 chiếc."],
 ],
 '7' => [
-["In Cốc Sứ Cao Cấp","150000","3.jpg","3.jpg","","","Nhận in ảnh, in chứ, in logo lên cốc sứ. Tư vấn thiết kế miễn phí. Lấy ngay sau 10 phút.","Được làm từ chất liệu men sứ cao cấp, sáng bóng, mịn sử dụng công nghệ in hiện đại hình ảnh in lên cốc rõ nét không bị phai mờ qua thời gian."],
-["In Ảnh Lên Cốc Dạ Quang","150000","15.jpg","15.jpg","","","Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
-			bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.","Cốc dạ quang là cốc có đặc điểm là trong điều kiện bình thường hình ảnh rất rõ nét còn trong bóng tối phát ra một ánh sáng mầu xanh huyền ảo.
-			Chiếc cố dạ quang có một lớp cảm quang bên ngoài nên ban ngày cốc sẽ tích ánh sáng và ban đêm khi để cốc trong bóng tối sẽ phát ra ánh sáng mờ mờ huyền ảo."],
-["In Cốc Trắng Thường","70000","2.jpg","2.jpg", "8.jpg", "","Những chiếc cốc trắng đơn điệu là thế qua bàn tay người thợ nhiều năm kinh nghiệm trong ngành in, cùng với công nghệ in hiện đại  đã trở lên vô cùng độc đáo và sinh động.","
-			In ảnh lên cốc cũng là cách thể hiện tình cảm của mình đối với người thân, bạn bè.
-			Các bạn sẽ nhận được ưu đãi giảm giá khi in số lượng lớn."],
-["In Cốc Cảm Biến Nhiệt","140000","13.jpg","13.jpg", "14.jpg", "","Cốc cảm biến nhiệt hay còn được gọi là cốc đổi mầu, cốc ma thuật. Chiếc cốc này ở nhiệt độ bình thường không nhin thấy hình ảnh nhưng khi rót nước nóng vào cốc hình ảnh từ từ hiện ra rất ró nét vô cùng sinh động. Sẽ là món quà đặc biệt dành tặng cho người thận, nguười iu trong dịp lễ, sinh nhật. ","Cốc cảm biến nhiệt là loại cốc thay đổi màu sắc hình ảnh theo nhiệt độ. Nhờ lớp men cảm biến nhiệt được tráng lên, thành cốc tiếp xúc với nhiệt từ nước nóng trong lòng cốc, lớp men đen sẽ biến mất dần dần hiền lên hình ảnh đầy mầu sắc được in lên trước đó.
-			Đặc biệt thích hợp với những người hay uống café, trà, những loại đồ nóng. Sẽ là món quà đặc biệt dễ thương cho người thân, bạn bè."],
-["In Ảnh Lên Cốc Quai Tai, Quai Tim","80000","","","","","Tặng gì cho người thân, bạn bè của mình trong dịp lễ tết, sinh nhật?
-			Các bạn muốn tìm món quà gì đó thật ý nghĩa nhưng phải khác biệt?
-			Đến với Công Ty Quà Tặng Smart Giift sẽ giúp bạn thực hiện một cách dễ dàng.","Những chiếc cốc quai tai, quai tim có in hình chính người thân, bạn bè của  bạn sẽ là món quà vô cùng ý nghĩa trong dịp sinh nhật, ngày lễ."],
-["In Cốc Mầu","90000","5.jpg","5.jpg","","","Đôi khi trong cuộc sống các bạn muốn tạo ra sự khác biệt nhưng không biết bắt đầu từ đâu. Hãy bắt đầu từ những thứ bình thường đơn giản nhất xung quanh bạn nhưng không thể thiếu trong cuộc sống hàng ngày.","Bạn hãy thử thay đổi chiếc cốc trắng bình thường mà hàng ngày bạn vẫn uống nước thành chiếc cốc nhiều mầu sắc sinh động in hình ngộ nghĩnh của bạn hay người thân.
-			Chúng tôi có nhiều mầu cốc cho các bạn lựa chọn, hỗ trợ tư vấn thiết kế miễn phí, chiều lòng được những khách hàng khó tính nhất.
-			Ưu đãi giảm giá khi in số lượng lớn."],
-["In Cốc Lòng Mầu","110000","10.jpg","10.jpg", "11.jpg", "","Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
-			bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.","In ảnh, chữ lên cốc lòng mầu, tư vấn thiết kế miễn phí, ảnh in lên cốc rõ nét.
-			In ảnh lên cốc lấy ngay, giá rẻ."],
-["In Cốc Viền Mầu","105000","10.jpg","11.jpg", "", "", "Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
-			bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.","Hình in rõ nét, chất men sáng bóng, cốc cóc nhiều mầu cho bạn lựa chọ.
-			Tư vấn thiết kế miễn phí."],
-["In Cốc Vát Có Thìa","145000","","","","","In ảnh, in chữ, in hình ngộ nghĩnh lên cốc vát có thìa vô cùng độc đáo ","Cốc có hình trụ phần dưới hơi vát dùng để in ảnh, in chữ, in logo,…cốc có nhiều mầu sắc khác nhau và có thêm chiếc thìa nhỏ vô cùng xinh xắn."]
+        ["In Cốc Sứ Cao Cấp","150000","4.jpg","6.jpg","5.jpg","4.jpg",
+        "Nhận in ảnh, in chứ, in logo lên cốc sứ.Tư vấn thiết kế miễn phí. Lấy ngay sau 10 phút.",
+        "Được làm từ chất liệu men sứ cao cấp, sáng bóng, mịn sử dụng công nghệ in hiện đại hình ảnh in lên cốc rõ nét không bị phai mờ qua thời gian."],
+        ["In Ảnh Lên Cốc Dạ Quang","150000","","","","",
+        "Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
+        bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.",
+        "Cốc dạ quang là cốc có đặc điểm là trong điều kiện bình thường hình ảnh rất rõ nét còn trong bóng tối phát ra một ánh sáng mầu xanh huyền ảo.
+        Chiếc cố dạ quang có một lớp cảm quang bên ngoài nên ban ngày cốc sẽ tích ánh sáng và ban đêm khi để cốc trong bóng tối sẽ phát ra ánh sáng mờ mờ huyền ảo."],
+        ["In Cốc Trắng Thường","70000","12.jpg","14.jpg","12.jpg","13.jpg",
+        "Những chiếc cốc trắng đơn điệu là thế qua bàn tay người thợ nhiều năm kinh nghiệm trong ngành in, cùng với công nghệ in hiện đại  đã trở lên vô cùng độc đáo và sinh động.",
+        "In ảnh lên cốc cũng là cách thể hiện tình cảm của mình đối với người thân, bạn bè.
+        Các bạn sẽ nhận được ưu đãi giảm giá khi in số lượng lớn."],
+        ["In Cốc Cảm Biến Nhiệt","140000","7.jpg","7.jpg","","",
+        "Cốc cảm biến nhiệt hay còn được gọi là cốc đổi mầu, cốc ma thuật. Chiếc cốc này ở nhiệt độ bình thường không nhin thấy hình ảnh nhưng khi rót nước nóng vào cốc hình ảnh từ từ hiện ra rất ró nét vô cùng sinh động. Sẽ là món quà đặc biệt dành tặng cho người thận, nguười iu trong dịp lễ, sinh nhật.",
+        "Cốc cảm biến nhiệt là loại cốc thay đổi màu sắc hình ảnh theo nhiệt độ. Nhờ lớp men cảm biến nhiệt được tráng lên, thành cốc tiếp xúc với nhiệt từ nước nóng trong lòng cốc, lớp men đen sẽ biến mất dần dần hiền lên hình ảnh đầy mầu sắc được in lên trước đó.
+        Đặc biệt thích hợp với những người hay uống café, trà, những loại đồ nóng. Sẽ là món quà đặc biệt dễ thương cho người thân, bạn bè."],
+        ["In Ảnh Lên Cốc Quai Tai, Quai Tim","80000","15.jpg","15.jpg","","","Tặng gì cho người thân, bạn bè của mình trong dịp lễ tết, sinh nhật?
+        Các bạn muốn tìm món quà gì đó thật ý nghĩa nhưng phải khác biệt?
+        Đến với Công Ty Quà Tặng Smart Giift sẽ giúp bạn thực hiện một cách dễ dàng.",
+        "Những chiếc cốc quai tai, quai tim có in hình chính người thân, bạn bè của  bạn sẽ là món quà vô cùng ý nghĩa trong dịp sinh nhật, ngày lễ."],
+        ["In Cốc Mầu","90000","17.jpg","16.jpg","17.jpg","18.jpg",
+        "Đôi khi trong cuộc sống các bạn muốn tạo ra sự khác biệt nhưng không biết bắt đầu từ đâu. Hãy bắt đầu từ những thứ bình thường đơn giản nhất xung quanh bạn nhưng không thể thiếu trong cuộc sống hàng ngày.",
+        "Bạn hãy thử thay đổi chiếc cốc trắng bình thường mà hàng ngày bạn vẫn uống nước thành chiếc cốc nhiều mầu sắc sinh động in hình ngộ nghĩnh của bạn hay người thân.
+        Chúng tôi có nhiều mầu cốc cho các bạn lựa chọn, hỗ trợ tư vấn thiết kế miễn phí, chiều lòng được những khách hàng khó tính nhất.
+        Ưu đãi giảm giá khi in số lượng lớn."],
+        ["In Cốc Lòng Mầu","110000","1.jpg","2.jpg","1.jpg","3.jpg",
+        "Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
+        bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.",
+        "In ảnh, chữ lên cốc lòng mầu, tư vấn thiết kế miễn phí, ảnh in lên cốc rõ nét.
+        In ảnh lên cốc lấy ngay, giá rẻ."],
+        ["In Cốc Viền Mầu","105000","9.jpg","8.jpg","9.jpg","",
+        "Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
+        bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.",
+        "Hình in rõ nét, chất men sáng bóng, cốc cóc nhiều mầu cho bạn lựa chọn.
+        Tư vấn thiết kế miễn phí."],
+        ["In Cốc Vát Có Thìa","145000","11.jpg","10.jpg","11.jpg","",
+        "In ảnh, in chữ, in hình ngộ nghĩnh lên cốc vát có thìa vô cùng độc đáo",
+        "Cốc có hình trụ phần dưới hơi vát dùng để in ảnh, in chữ, in logo,…cốc có nhiều mầu sắc khác nhau và có thêm chiếc thìa nhỏ vô cùng xinh xắn."],
 
 ],
 
