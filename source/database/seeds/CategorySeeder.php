@@ -6,16 +6,24 @@ use SmartGift\Product\Category;
 class CategorySeeder extends Seeder
 {
     protected $rawData = [
-        ['image'=> 'Biểu Trưng Pha Lê','description' => 'Biểu Trưng Pha Lê'],
-        ['image'=> 'Biểu-Trưng-đồng','description' => 'Biểu-Trưng-đồng'],
-        ['image'=> 'Cúp-Pha-Lê','description' => 'Cúp-Pha-Lê'],
-        ['image'=> 'Cốc Minh Long','description' => 'Cốc Minh Long'],
-        ['image'=> 'Cốc-In-Ảnh','description' => 'Cốc-In-Ảnh'],
-        ['image'=> 'Cốc-Thủy-Tinh','description' => 'Cốc-Thuỷ-Tinh'],
-        ['image'=> 'In-Đĩa','description' => 'In-Đĩa'],
-        ['image'=> 'In-Ảnh-Lên-Pha-Lê','description' => 'In-Ảnh-Lên-Pha-Lê'],
-        ['image'=> 'Móc-Khóa','description' => 'Móc-Khóa'],
-        ['image'=> 'Thẻ-Tên-Huy-Hiệu-Đồng','description' => 'Thẻ-Tên-Huy-Hiệu-Đồng'],
+        ['name' => 'Ảnh gỗ', 'id' => '1'],
+        ['name' => 'Biểu trưng đồng', 'id' => '2'],
+        ['name' => 'Biểu Trưng Pha Lê', 'id' => '3'],
+        ['name' => 'Cốc Lumiarc', 'id' => '4'],
+        ['name' => 'Cốc Minh Long', 'id' => '5'],
+        ['name' => 'Cốc ocean', 'id' => '6'],
+        ['name' => 'Cốc trắng thường', 'id' => '7'],
+        ['name' => 'Cốc Union', 'id' => '8'],
+        ['name' => 'Cup Pha Lê', 'id' => '9'],
+        ['name' => 'đá in ảnh', 'id' => '10'],
+        ['name' => 'Decal', 'id' => '11'],
+        ['name' => 'Đĩa', 'id' => '12'],
+        ['name' => 'In Hóa Đơn', 'id' => '13'],
+        ['name' => 'In Túi', 'id' => '14'],
+        ['name' => 'móc khóa', 'id' => '15'],
+        ['name' => 'pha lê 3d', 'id' => '16'],
+        ['name' => 'pha lê in ảnh', 'id' => '17'],
+        ['name' => 'thẻ tên tấm đồng, nhôm', 'id' => '18'],
     ];
 
     public function run()
@@ -25,9 +33,9 @@ class CategorySeeder extends Seeder
         foreach ($this->rawData as $row)
         {
             $category = new Category();
-            $category->name         = $this->resolveName($row['image']);
-            $category->image        = $this->resolveImageLink($row['image']);
-            $category->description  = $this->resolveName($row['image']);
+            $category->name         = $this->resolveName($row['name']);
+            $category->image        = $this->resolveImageLink($row['name']);
+            $category->description  = $this->resolveName($row['name']);
 
             $category->save();
         }
