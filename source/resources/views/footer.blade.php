@@ -5,7 +5,7 @@
 
                 <!-- About -->
                 <div class="col-md-4 md-margin-bottom-40">
-                    <a href="index.html"><img style="height: auto; width: 50%" class="footer-logo col-md-12" src="/assets/img/Logo_footer.png" alt=""></a>
+                    <a href="{{route('home')}}"><img style="height: auto; width: 50%" class="footer-logo col-md-12" src="/assets/img/Logo_footer.png" alt=""></a>
                     <br>
                     <ul class="list-unstyled address-list margin-bottom-20">
                         <li><i class="fa fa-angle-right"></i>Nhà N5, khu D, ngõ 59 Láng Hạ, Ba Đình, Hà Nội</li>
@@ -16,7 +16,10 @@
                     </ul>
 
                     <ul class="list-inline shop-social">
-                        <li><a href="#"><i class="fb rounded-md fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/smartgift.ABC/">
+                            <i class="fb rounded-md fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/b/102634494114925399273/+QuatangthongminhNetNo1/posts">
+                                <i class="fa rounded-md fa-google-plus"></i></a></li>
 
                     </ul>
                 </div>

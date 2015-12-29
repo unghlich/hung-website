@@ -38,7 +38,7 @@
                         <li><a href="{{route('home')}}"><i class="fa fa-globe"></i> https://quatangthongminh.net</a></li>
                         <li><a href="mailto:quatangthongminh.net@gmail.com?Subject=Hello%20SmartGift" target="_top">
                                 <i class="fa fa-envelope"></i> quatangthongminh.net@gmail.com</a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i> SmartGift</a></li>
+                        <li><a href="skype:SmartGift?chat"><i class="fa fa-skype"></i> SmartGift</a></li>
                     </ul>
 
                     <hr>
