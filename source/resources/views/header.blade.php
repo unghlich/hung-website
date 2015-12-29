@@ -90,7 +90,7 @@
 
                     <!-- Clothes -->
                     <li class="dropdown">
-                        <a href="{{route('contact')}}" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                        <a href="{{route('contact')}}" class="dropdown-toggle" data-hover="dropdown" >
                             Liên hệ
                         </a>
                     </li>
