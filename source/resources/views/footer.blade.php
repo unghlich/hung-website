@@ -8,7 +8,9 @@
                     <a href="{{route('home')}}"><img style="height: auto; width: 50%" class="footer-logo col-md-12" src="/assets/img/Logo_footer.png" alt=""></a>
                     <br>
                     <ul class="list-unstyled address-list margin-bottom-20">
-                        <li><i class="fa fa-angle-right"></i>Nhà N5, khu D, ngõ 59 Láng Hạ, Ba Đình, Hà Nội</li>
+                        <li><i class="fa fa-angle-right"></i>Nhà N5, khu D, ngõ 59 Láng Hạ, Ba Đình, Hà Nội<br/>
+&nbsp&nbsp&nbsp&nbsp(Có chỗ đỗ Ô tô)
+</li>
                         <li><i class="fa fa-angle-right"></i>Di động: 09718 2222 6</li>
                         <li><i class="fa fa-angle-right"></i>Máy bàn: 046 292 1168</li>
                         <li><i class="fa fa-angle-right"></i>Email: quatangthongminh.net@gmail.com</li>
