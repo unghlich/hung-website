@@ -298,7 +298,7 @@ class ProductSeeder extends Seeder
 			Đa dạng về kiểu dáng, kích thước cung ứng nhu cầu của quý doanh nghiệp.
 			Tư vấn, thiết kế miễn phí.
 			Bộ 6 ly cao thuỷ tinh Luminarc Octime Pink 280ml (Trắng tím)"],
-            ["Luminarc Sterling Ice Blue","129000","11.jpg","11.jpg","","",
+            ["Luminarc Sterling Ice Blue","145000","11.jpg","11.jpg","","",
             "Nhận in logo, thông tin doanh nghiệp  lên cốc thủy tinh Luminarc đảm bảo về chất lượng sản phẩm cũng như giá trên thị trường.",
             "Hình in lên cốc Luminarc rõ nét,  cốc dầy dặn,
 			Đa dạng về kiểu dáng, kích thước cung ứng nhu cầu của quý doanh nghiệp.
@@ -310,7 +310,7 @@ class ProductSeeder extends Seeder
 			Đa dạng về kiểu dáng, kích thước cung ứng nhu cầu của quý doanh nghiệp.
 			Tư vấn, thiết kế miễn phí.
 			Bộ 6 ly thuỷ tinh thấp Luminarc Sterling Pink 300ml (Hồng)"],
-            ["Luminarc Octime Ice Blue (Trắng xanh)","149000","13.jpg","13.jpg","","",
+            ["Luminarc Octime Ice Blue (Trắng xanh)","189000","13.jpg","13.jpg","","",
             "Nhận in logo, thông tin doanh nghiệp  lên cốc thủy tinh Luminarc đảm bảo về chất lượng sản phẩm cũng như giá trên thị trường.",
             "Hình in lên cốc Luminarc rõ nét,  cốc dầy dặn,
 			Đa dạng về kiểu dáng, kích thước cung ứng nhu cầu của quý doanh nghiệp.
@@ -592,7 +592,7 @@ class ProductSeeder extends Seeder
         ["In Cốc Sứ Cao Cấp","150000","4.jpg","6.jpg","5.jpg","4.jpg",
         "Nhận in ảnh, in chứ, in logo lên cốc sứ.Tư vấn thiết kế miễn phí. Lấy ngay sau 10 phút.",
         "Được làm từ chất liệu men sứ cao cấp, sáng bóng, mịn sử dụng công nghệ in hiện đại hình ảnh in lên cốc rõ nét không bị phai mờ qua thời gian."],
-        ["In Ảnh Lên Cốc Dạ Quang","150000","","","","",
+        ["In Ảnh Lên Cốc Dạ Quang","150000","15.jpg","15.jpg","","",
         "Những chiếc cốc dễ thương nhiều mầu sắc sinh động có in hình gia đình,
         bạn bè sẽ là món quà ý nghĩa trong dịp sinh nhật, ngày lễ lưu lại những kỷ niệm của bạn và người thân.",
         "Cốc dạ quang là cốc có đặc điểm là trong điều kiện bình thường hình ảnh rất rõ nét còn trong bóng tối phát ra một ánh sáng mầu xanh huyền ảo.
@@ -601,7 +601,7 @@ class ProductSeeder extends Seeder
         "Những chiếc cốc trắng đơn điệu là thế qua bàn tay người thợ nhiều năm kinh nghiệm trong ngành in, cùng với công nghệ in hiện đại  đã trở lên vô cùng độc đáo và sinh động.",
         "In ảnh lên cốc cũng là cách thể hiện tình cảm của mình đối với người thân, bạn bè.
         Các bạn sẽ nhận được ưu đãi giảm giá khi in số lượng lớn."],
-        ["In Cốc Cảm Biến Nhiệt","140000","7.jpg","7.jpg","","",
+        ["In Cốc Cảm Biến Nhiệt","140000","13.jpg","13.jpg","14.jpg","",
         "Cốc cảm biến nhiệt hay còn được gọi là cốc đổi mầu, cốc ma thuật. Chiếc cốc này ở nhiệt độ bình thường không nhin thấy hình ảnh nhưng khi rót nước nóng vào cốc hình ảnh từ từ hiện ra rất ró nét vô cùng sinh động. Sẽ là món quà đặc biệt dành tặng cho người thận, nguười iu trong dịp lễ, sinh nhật.",
         "Cốc cảm biến nhiệt là loại cốc thay đổi màu sắc hình ảnh theo nhiệt độ. Nhờ lớp men cảm biến nhiệt được tráng lên, thành cốc tiếp xúc với nhiệt từ nước nóng trong lòng cốc, lớp men đen sẽ biến mất dần dần hiền lên hình ảnh đầy mầu sắc được in lên trước đó.
         Đặc biệt thích hợp với những người hay uống café, trà, những loại đồ nóng. Sẽ là món quà đặc biệt dễ thương cho người thân, bạn bè."],
@@ -994,7 +994,7 @@ class ProductSeeder extends Seeder
 			Đội ngũ nhân viên kỹ thuật tay nghề cao nhiều năm kinh nghiệm trong ngành pha lê.
 			Bạn chỉ cần gửi ảnh qua gmail, chúng tôi sẽ thiết kế chỉnh sửa ảnh dựa trên ý tưởng của khách hàng
 			Tư vẫn thiết kế miễn phí,"],
-["Cúp Pha Lê Mẫu 38","6500000","38.jpg","38.jpg","","",
+["Cúp Pha Lê Mẫu 38","650000","38.jpg","38.jpg","","",
     "Cúp pha lê thường được chọn làm quà tặng trong các sự kiện, lễ trao giải, lễ kỉ niệm,…
 			của các công ty, tổ chức, doanh nghiệp nhằm đánh dấu, ghi nhận và tôn vinh những công lao, cống hiến cho doanh nghiệp.
 			Chúng tôi có rất nhiều mẫu cúp pha lê cho quý doanh nghiệp lựa chọn phù hợp với mục tiêu của mình",
