@@ -691,7 +691,7 @@ class ProductSeeder extends Seeder
 "Đội ngũ nhân viên tay nghề cao nghiều năm kinh nghiệm với công nghệ in hiện đại sẽ tạo ra những sản phẩm đẹp nhất, chất lượng tốt nhất đến tay doanh nghiệp.
 			Tư vẫn thiết kế hình in miễn phí.
 			Quý khách in số lượng lớn vui lòng liên hệ."],
-["Cốc vuông lùn to UG 361","45000","15.jpg","15.jpg","","",
+["Cốc vuông lùn to UG 361","77000","15.jpg","15.jpg","","",
 "Nhận in logo, thông tin doanh nghiệp  lên cốc thủy tinh Union",
 "Đội ngũ nhân viên tay nghề cao nghiều năm kinh nghiệm với công nghệ in hiện đại sẽ tạo ra những sản phẩm đẹp nhất, chất lượng tốt nhất đến tay doanh nghiệp.
 			Tư vẫn thiết kế hình in miễn phí.
